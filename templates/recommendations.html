@@ -1,70 +1,42 @@
-{% extends "base.html" %}
-
-{% block title %}Strategies - Customer Churn Analytics{% endblock %}
-
+{% extends 'base.html' %}
+{% block title %}Actions{% endblock %}
 {% block content %}
-<h2 class="mb-4 animate__animated animate__fadeInLeft">Business Recommendations</h2>
+<section class="page-head">
+  <div>
+    <div class="eyebrow">From analysis to action</div>
+    <h1>What the business could do</h1>
+    <p>Each suggestion is tied to a number on the other pages. They are hypotheses to test with a controlled campaign, not proven effects.</p>
+  </div>
+</section>
 
-<div class="row g-4">
-    <div class="col-md-7">
-        <div class="card p-4 shadow-sm border-0 mb-4 animate__animated animate__fadeInUp">
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <h5 class="mb-0">Product Association Rules</h5>
-                <span class="badge bg-info text-dark">Cross-Selling Opportunities</span>
-            </div>
-            <p class="text-muted small">Top discovered rules indicating that if a customer buys product A, they are likely to buy product B.</p>
-            
-            <div class="table-responsive">
-                <table class="table table-hover" id="rules-table">
-                    <thead class="table-light">
-                        <tr>
-                            <th>If Customer Buys...</th>
-                            <th>They Also Buy...</th>
-                            <th>Confidence</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- Populated by JS -->
-                        <tr>
-                            <td colspan="3" class="text-center text-muted py-4">
-                                <div class="spinner-border spinner-border-sm text-primary" role="status"></div> Loading rules...
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-    
-    <div class="col-md-5">
-        <div class="card p-4 shadow-sm border-0 animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
-            <h5 class="mb-3">Strategic Action Plan</h5>
-            <div class="list-group list-group-flush">
-                <div class="list-group-item p-3 border-0 bg-light mb-2 rounded">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h6 class="mb-1 text-danger fw-bold">1. At-Risk Intervention</h6>
-                    </div>
-                    <p class="mb-1 small">Target <strong>Cluster 0</strong> (High Recency) with reactivation campaigns.</p>
-                    <small class="text-muted"><i class="fas fa-envelope"></i> Send "We Miss You" coupons.</small>
-                </div>
-                
-                <div class="list-group-item p-3 border-0 bg-light mb-2 rounded">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h6 class="mb-1 text-success fw-bold">2. Loyalty Retention</h6>
-                    </div>
-                    <p class="mb-1 small">Reward <strong>Cluster 1</strong> (High Frequency) to maintain engagement.</p>
-                    <small class="text-muted"><i class="fas fa-star"></i> Offer early access to sales.</small>
-                </div>
-                
-                <div class="list-group-item p-3 border-0 bg-light mb-2 rounded">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h6 class="mb-1 text-primary fw-bold">3. Basket Value Growth</h6>
-                    </div>
-                    <p class="mb-1 small">Implement product bundling based on Association Rules.</p>
-                    <small class="text-muted"><i class="fas fa-tags"></i> Suggest "Freq Bought Together" items.</small>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<section class="card">
+  <div class="card-head"><h2>By segment</h2></div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Segment</th><th>Evidence</th><th>Suggested action</th></tr></thead>
+    <tbody>
+    {% for s in segments.segments %}
+      <tr>
+        <td>{{ s.name }}</td>
+        <td>{{ "{:,}".format(s.customers) }} customers, {{ "{:.0%}".format(s.share_revenue) }} of revenue, {{ "{:.0%}".format(s.churn_rate) }} churned in the next 90 days</td>
+        <td>
+          {% if s.name.startswith('High value') %}Protect: account management, early access to new ranges; no blanket discounts, because most are not leaving.
+          {% elif 'lapsed' in s.name and s.name.startswith('Mid') %}Win back: a time-limited offer built around products they bought before; the biggest pool of recoverable revenue.
+          {% elif 'lapsed' in s.name %}Low-cost reactivation only (email); revenue per customer is too small to justify paid outreach.
+          {% else %}Nurture: reorder reminders and bundles from the basket rules.{% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+</section>
+
+<section class="card">
+  <div class="card-head"><h2>From the basket rules</h2></div>
+  <ul class="prose" style="padding-left:20px">
+    {% set p = basket.top_pairs %}
+    <li><strong>Sell variants as sets.</strong> {{ p[0].antecedents[0] }} and {{ p[0].consequents[0] }} appear together {{ p[0].lift }}× more often than chance ({{ "{:.0%}".format(p[0].confidence) }} confidence over {{ p[0].count }} orders).</li>
+    <li><strong>"Complete the set" prompts</strong> at checkout for rules with confidence above 50%: {{ basket.rules|selectattr('confidence', 'ge', 0.5)|list|length }} rules qualify.</li>
+    <li><strong>Bundle offers for the win-back segment</strong> built from the pairs their past orders already contain.</li>
+  </ul>
+</section>
 {% endblock %}

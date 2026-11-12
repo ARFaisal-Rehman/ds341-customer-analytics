@@ -1,49 +1,69 @@
-{% extends "base.html" %}
-
-{% block title %}Customer Segments - Customer Churn Analytics{% endblock %}
-
+{% extends 'base.html' %}
+{% block title %}Segments{% endblock %}
 {% block content %}
-<h2 class="mb-4 animate__animated animate__fadeInLeft">Customer Segmentation</h2>
+<section class="page-head">
+  <div>
+    <div class="eyebrow">Technique 1 · K-means clustering</div>
+    <h1>Customer segments</h1>
+    <p>Features: {{ segments.features|join(', ') }}, log-transformed and standardised. Without the log transform, a few wholesale buyers form their own clusters (the first version of this project had clusters of 1 and 6 customers).</p>
+  </div>
+</section>
 
-<div class="row g-4">
-    <div class="col-lg-6">
-        <div class="card p-3 shadow-sm border-0 animate__animated animate__fadeInUp">
-            <div class="card-header bg-transparent border-0">
-                <h5>Cluster Visualization (PCA)</h5>
-                <p class="text-muted small">2D projection of customer clusters based on RFM features.</p>
-            </div>
-            <div class="card-body text-center">
-                <img src="/results/clusters_pca.png" class="img-fluid rounded shadow-sm" alt="Clusters">
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-6">
-        <div class="card p-3 shadow-sm border-0 animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
-            <div class="card-header bg-transparent border-0">
-                <h5>Cluster Characteristics</h5>
-                <p class="text-muted small">Average RFM values for each identified segment.</p>
-            </div>
-            <div class="table-responsive">
-                <table class="table table-hover align-middle" id="cluster-table">
-                    <thead class="table-light">
-                        <tr>
-                            <th>Cluster ID</th>
-                            <th>Recency (Days)</th>
-                            <th>Frequency (Count)</th>
-                            <th>Monetary ($)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- Populated by JS -->
-                        <tr>
-                            <td colspan="4" class="text-center text-muted py-4">
-                                <div class="spinner-border spinner-border-sm text-primary" role="status"></div> Loading segments...
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</div>
+<section class="card">
+  <div class="card-head"><h2>Segment profiles</h2><p>Medians per segment; names follow fixed rules (see below)</p></div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Segment</th><th class="num">Customers</th><th class="num">Share of revenue</th><th class="num">Days since order</th><th class="num">Orders</th><th class="num">Spend</th><th class="num">Order value</th><th class="num">Churned in next 90 days</th></tr></thead>
+    <tbody>
+    {% for s in segments.segments %}
+      <tr><td>{{ s.name }}</td><td class="num">{{ "{:,}".format(s.customers) }} ({{ "{:.0%}".format(s.share_customers) }})</td>
+      <td class="num">{{ "{:.0%}".format(s.share_revenue) }}</td><td class="num">{{ s.median_recency|int }}</td>
+      <td class="num">{{ s.median_frequency|int }}</td><td class="num">£{{ "{:,.0f}".format(s.median_monetary) }}</td>
+      <td class="num">£{{ "{:,.0f}".format(s.median_aov) }}</td><td class="num">{{ "{:.0%}".format(s.churn_rate) }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  <p class="note" style="margin-top:12px">Naming rule: value is the segment's median spend against the median customer (more than 2x = high, under 0.5x = low); status is median days since last order (30 or fewer = active, 90 or fewer = cooling, more = lapsed). The churn column comes from the leak-free churn label, so it is an outcome the clustering never saw.</p>
+</section>
+
+<section class="grid two">
+  <div class="card">
+    <div class="card-head"><h2>Choosing k</h2><p>Silhouette (higher is better) and inertia (elbow)</p></div>
+    <div class="chart"><canvas id="kchart" role="img" aria-label="Silhouette and inertia for k from 2 to 8"></canvas></div>
+    <p class="note" style="margin-top:8px">k = 2 scores highest but only separates active from lapsed customers, so k is chosen from 3 upwards: k = {{ segments.k }} (silhouette {{ segments.silhouette[segments.k|string] }}).</p>
+  </div>
+  <div class="card">
+    <div class="card-head"><h2>Recency vs spend</h2><p>1,500-customer sample, log scales</p></div>
+    <div class="chart"><canvas id="scatter" role="img" aria-label="Customers by recency and spend, coloured by segment"></canvas></div>
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script>
+const S = {{ segments|tojson }};
+const charts = {};
+function draw() {
+  if (!window.Chart) return;
+  chartDefaults();
+  Object.values(charts).forEach(c => c.destroy());
+  const ks = Object.keys(S.silhouette);
+  charts.k = new Chart(document.getElementById('kchart'), {
+    data: {labels: ks, datasets: [
+      {type: 'line', label: 'Silhouette', data: ks.map(k => S.silhouette[k]), borderColor: cssVar('--primary'), backgroundColor: cssVar('--primary'), yAxisID: 'y'},
+      {type: 'line', label: 'Inertia', data: ks.map(k => S.inertia[k]), borderColor: cssVar('--accent'), backgroundColor: cssVar('--accent'), borderDash: [6, 4], pointStyle: 'triangle', yAxisID: 'y2'}]},
+    options: {maintainAspectRatio: false, animation: false, plugins: {legend: {position: 'bottom', labels: {usePointStyle: true}}},
+      scales: {x: {title: {display: true, text: 'k (number of segments)'}}, y: {title: {display: true, text: 'Silhouette'}}, y2: {position: 'right', grid: {display: false}, title: {display: true, text: 'Inertia'}}}}
+  });
+  const names = S.segments.map(s => s.name);
+  const styles = ['circle', 'triangle', 'rect', 'rectRot', 'star'];
+  charts.s = new Chart(document.getElementById('scatter'), {
+    type: 'scatter',
+    data: {datasets: names.map((n, i) => ({label: n, data: S.scatter.filter(p => p.s === n).map(p => ({x: Math.max(1, p.x), y: Math.max(1, p.y)})),
+      backgroundColor: cssVar(SEG_COLORS[i % SEG_COLORS.length]), pointStyle: styles[i % styles.length], pointRadius: 3}))},
+    options: {maintainAspectRatio: false, animation: false, plugins: {legend: {position: 'bottom', labels: {usePointStyle: true}}},
+      scales: {x: {type: 'logarithmic', title: {display: true, text: 'Days since last order'}}, y: {type: 'logarithmic', title: {display: true, text: 'Spend (£)'}}}}
+  });
+}
+window.addEventListener('load', draw);
+document.addEventListener('themechange', draw);
+</script>
 {% endblock %}

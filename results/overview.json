@@ -1,0 +1,104 @@
+{
+ "period": [
+  "2010-12-01",
+  "2011-12-09"
+ ],
+ "cleaning": {
+  "raw_rows": 541909,
+  "after_duplicates": 536641,
+  "with_customer_id": 401604,
+  "purchase_rows": 391150,
+  "customers": 4334,
+  "invoices": 18402,
+  "products": 3659
+ },
+ "revenue": 8737227.64,
+ "monthly": [
+  {
+   "month": "2010-12",
+   "revenue": 565199.56,
+   "orders": 1394,
+   "customers": 884
+  },
+  {
+   "month": "2011-01",
+   "revenue": 562682.91,
+   "orders": 983,
+   "customers": 739
+  },
+  {
+   "month": "2011-02",
+   "revenue": 442293.59,
+   "orders": 992,
+   "customers": 757
+  },
+  {
+   "month": "2011-03",
+   "revenue": 583143.85,
+   "orders": 1312,
+   "customers": 973
+  },
+  {
+   "month": "2011-04",
+   "revenue": 454440.88,
+   "orders": 1139,
+   "customers": 853
+  },
+  {
+   "month": "2011-05",
+   "revenue": 659242.49,
+   "orders": 1544,
+   "customers": 1054
+  },
+  {
+   "month": "2011-06",
+   "revenue": 653264.92,
+   "orders": 1390,
+   "customers": 990
+  },
+  {
+   "month": "2011-07",
+   "revenue": 591603.79,
+   "orders": 1321,
+   "customers": 946
+  },
+  {
+   "month": "2011-08",
+   "revenue": 635514.38,
+   "orders": 1267,
+   "customers": 933
+  },
+  {
+   "month": "2011-09",
+   "revenue": 938752.63,
+   "orders": 1739,
+   "customers": 1259
+  },
+  {
+   "month": "2011-10",
+   "revenue": 1002326.56,
+   "orders": 1903,
+   "customers": 1361
+  },
+  {
+   "month": "2011-11",
+   "revenue": 1136534.0,
+   "orders": 2642,
+   "customers": 1660
+  },
+  {
+   "month": "2011-12",
+   "revenue": 512228.08,
+   "orders": 776,
+   "customers": 614
+  }
+ ],
+ "top_countries": {
+  "United Kingdom": 7242855.32,
+  "Netherlands": 283889.34,
+  "EIRE": 257013.12,
+  "Germany": 205381.15,
+  "France": 183801.94,
+  "Australia": 138103.81
+ }
+}

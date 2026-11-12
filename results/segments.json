@@ -1,0 +1,7564 @@
+{
+ "k": 3,
+ "silhouette": {
+  "2": 0.3774,
+  "3": 0.2851,
+  "4": 0.2823,
+  "5": 0.2675,
+  "6": 0.2821,
+  "7": 0.276,
+  "8": 0.2674
+ },
+ "inertia": {
+  "2": 8065.2,
+  "3": 6309.7,
+  "4": 5310.2,
+  "5": 4597.8,
+  "6": 4011.2,
+  "7": 3665.9,
+  "8": 3379.9
+ },
+ "segments": [
+  {
+   "name": "High value, active",
+   "customers": 862,
+   "share_customers": 0.2559,
+   "share_revenue": 0.7126,
+   "median_recency": 16.0,
+   "median_frequency": 6.0,
+   "median_monetary": 2135.69,
+   "median_aov": 342.07,
+   "churn_rate": 0.1531
+  },
+  {
+   "name": "Mid value, lapsed",
+   "customers": 1366,
+   "share_customers": 0.4056,
+   "share_revenue": 0.2424,
+   "median_recency": 94.0,
+   "median_frequency": 2.0,
+   "median_monetary": 651.42,
+   "median_aov": 363.81,
+   "churn_rate": 0.4671
+  },
+  {
+   "name": "Low value, lapsed",
+   "customers": 1140,
+   "share_customers": 0.3385,
+   "share_revenue": 0.045,
+   "median_recency": 128.0,
+   "median_frequency": 1.0,
+   "median_monetary": 189.07,
+   "median_aov": 145.12,
+   "churn_rate": 0.5956
+  }
+ ],
+ "scatter": [
+  {
+   "x": 75.0,
+   "y": 811.45,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 73.0,
+   "y": 1230.1399999999999,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 58.0,
+   "y": 414.79,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 137.0,
+   "y": 160.54000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 8.0,
+   "y": 267.8,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 204.0,
+   "y": 311.55,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 211.0,
+   "y": 1140.35,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 128.0,
+   "y": 5307.82,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 26.0,
+   "y": 799.9,
+   "s": "High value, active"
+  },
+  {
+   "x": 276.0,
+   "y": 478.89,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 122.0,
+   "y": 358.2,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 135.0,
+   "y": 226.85,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 19.0,
+   "y": 5294.49,
+   "s": "High value, active"
+  },
+  {
+   "x": 62.0,
+   "y": 188.98,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 102.0,
+   "y": 500.69,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 23.0,
+   "y": 434.05,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 22.0,
+   "y": 2535.58,
+   "s": "High value, active"
+  },
+  {
+   "x": 54.0,
+   "y": 1833.82,
+   "s": "High value, active"
+  },
+  {
+   "x": 162.0,
+   "y": 199.58,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 44.0,
+   "y": 1957.1000000000001,
+   "s": "High value, active"
+  },
+  {
+   "x": 129.0,
+   "y": 610.59,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 156.0,
+   "y": 379.7,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 18.0,
+   "y": 2011.88,
+   "s": "High value, active"
+  },
+  {
+   "x": 8.0,
+   "y": 9780.35,
+   "s": "High value, active"
+  },
+  {
+   "x": 176.0,
+   "y": 152.55,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 167.0,
+   "y": 609.4,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 4589.39,
+   "s": "High value, active"
+  },
+  {
+   "x": 114.0,
+   "y": 1589.82,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 164.0,
+   "y": 315.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 25.0,
+   "y": 338.95,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 18.0,
+   "y": 390.21,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 13.0,
+   "y": 2808.38,
+   "s": "High value, active"
+  },
+  {
+   "x": 40.0,
+   "y": 498.48,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 32.0,
+   "y": 661.61,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 39.0,
+   "y": 477.91,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 278.0,
+   "y": 402.36,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 171.0,
+   "y": 605.58,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 166.0,
+   "y": 88.2,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 95.0,
+   "y": 25.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 24.0,
+   "y": 85.13000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 110.0,
+   "y": 326.4,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 174.0,
+   "y": 293.45,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 50.0,
+   "y": 1227.13,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 234.0,
+   "y": 76.32000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 65.0,
+   "y": 361.11,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 179.0,
+   "y": 217.89,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 278.0,
+   "y": 193.29999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 39.0,
+   "y": 2224.03,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 283.0,
+   "y": 172.54,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 10.0,
+   "y": 1440.67,
+   "s": "High value, active"
+  },
+  {
+   "x": 41.0,
+   "y": 953.0300000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 99.0,
+   "y": 1541.1,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 55.0,
+   "y": 783.9,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 66.0,
+   "y": 347.87,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 36.0,
+   "y": 2040.34,
+   "s": "High value, active"
+  },
+  {
+   "x": 72.0,
+   "y": 1760.96,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 220.0,
+   "y": 310.06,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 57.0,
+   "y": 609.41,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 279.0,
+   "y": 186.88,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 4505.99,
+   "s": "High value, active"
+  },
+  {
+   "x": 187.0,
+   "y": 180.60000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 153.0,
+   "y": 560.67,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 170.0,
+   "y": 335.32,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 87.0,
+   "y": 212.49,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 54.0,
+   "y": 522.68,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 94.0,
+   "y": 1628.56,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 166.0,
+   "y": 4959.1,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 179.0,
+   "y": 170.75,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 113.0,
+   "y": 255.12,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 1.0,
+   "y": 4258.92,
+   "s": "High value, active"
+  },
+  {
+   "x": 43.0,
+   "y": 489.45,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 25.0,
+   "y": 2278.5,
+   "s": "High value, active"
+  },
+  {
+   "x": 171.0,
+   "y": 495.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 144.0,
+   "y": 113.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 8.0,
+   "y": 1119.74,
+   "s": "High value, active"
+  },
+  {
+   "x": 155.0,
+   "y": 1061.1000000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 88.0,
+   "y": 230.57999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 107.0,
+   "y": 301.75,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 20.0,
+   "y": 716.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 515.79,
+   "s": "High value, active"
+  },
+  {
+   "x": 281.0,
+   "y": 371.8,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 193.0,
+   "y": 499.12,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 13.0,
+   "y": 417.06,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 37.0,
+   "y": 684.53,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 25.0,
+   "y": 1610.15,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 76.0,
+   "y": 1105.53,
+   "s": "High value, active"
+  },
+  {
+   "x": 127.0,
+   "y": 700.6,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 37.0,
+   "y": 168.31,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 190.0,
+   "y": 392.86,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 184.0,
+   "y": 2682.66,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 15.0,
+   "y": 260.74,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 5339.95,
+   "s": "High value, active"
+  },
+  {
+   "x": 172.0,
+   "y": 215.05,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 190.0,
+   "y": 386.15,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 274.0,
+   "y": 190.7,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 236.0,
+   "y": 170.46,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 38.0,
+   "y": 2267.58,
+   "s": "High value, active"
+  },
+  {
+   "x": 30.0,
+   "y": 675.73,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 52.0,
+   "y": 456.84,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 234.0,
+   "y": 45.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 38.0,
+   "y": 3041.64,
+   "s": "High value, active"
+  },
+  {
+   "x": 19.0,
+   "y": 2599.49,
+   "s": "High value, active"
+  },
+  {
+   "x": 81.0,
+   "y": 88.3,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 207.0,
+   "y": 160.15,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 124.0,
+   "y": 943.58,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 3.0,
+   "y": 47729.2,
+   "s": "High value, active"
+  },
+  {
+   "x": 109.0,
+   "y": 2369.24,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 4.0,
+   "y": 3164.19,
+   "s": "High value, active"
+  },
+  {
+   "x": 22.0,
+   "y": 1674.57,
+   "s": "High value, active"
+  },
+  {
+   "x": 79.0,
+   "y": 409.63,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 146.0,
+   "y": 314.45,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 78.0,
+   "y": 885.19,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 127.0,
+   "y": 910.2,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 73.0,
+   "y": 110.92,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 534.31,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 160.0,
+   "y": 127.84,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 1080.52,
+   "s": "High value, active"
+  },
+  {
+   "x": 10.0,
+   "y": 9223.04,
+   "s": "High value, active"
+  },
+  {
+   "x": 80.0,
+   "y": 116.28000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 165.0,
+   "y": 1028.46,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 171.0,
+   "y": 402.9,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 46.0,
+   "y": 1299.49,
+   "s": "High value, active"
+  },
+  {
+   "x": 2.0,
+   "y": 1099.27,
+   "s": "High value, active"
+  },
+  {
+   "x": 128.0,
+   "y": 495.77,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 65.0,
+   "y": 3144.33,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 59.0,
+   "y": 179.17,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 58.0,
+   "y": 626.35,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 198.0,
+   "y": 295.15,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 94.0,
+   "y": 462.15000000000003,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 282.0,
+   "y": 303.97,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 95.0,
+   "y": 103.25,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 2424.04,
+   "s": "High value, active"
+  },
+  {
+   "x": 1.0,
+   "y": 8800.67,
+   "s": "High value, active"
+  },
+  {
+   "x": 80.0,
+   "y": 463.88,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 43.0,
+   "y": 241.62,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 243.0,
+   "y": 311.71,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 206.0,
+   "y": 76.32000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 222.0,
+   "y": 580.0500000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 176.0,
+   "y": 111.95,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 94.0,
+   "y": 1359.32,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 193.0,
+   "y": 417.2,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 1093.12,
+   "s": "High value, active"
+  },
+  {
+   "x": 151.0,
+   "y": 101.8,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 415.51,
+   "s": "High value, active"
+  },
+  {
+   "x": 51.0,
+   "y": 1032.83,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 79.0,
+   "y": 410.94,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 2437.66,
+   "s": "High value, active"
+  },
+  {
+   "x": 3.0,
+   "y": 1301.94,
+   "s": "High value, active"
+  },
+  {
+   "x": 3.0,
+   "y": 3210.59,
+   "s": "High value, active"
+  },
+  {
+   "x": 23.0,
+   "y": 2617.0099999999998,
+   "s": "High value, active"
+  },
+  {
+   "x": 104.0,
+   "y": 1578.67,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 726.23,
+   "s": "High value, active"
+  },
+  {
+   "x": 43.0,
+   "y": 300.76,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 1868.88,
+   "s": "High value, active"
+  },
+  {
+   "x": 52.0,
+   "y": 4944.389999999999,
+   "s": "High value, active"
+  },
+  {
+   "x": 167.0,
+   "y": 173.52,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 31.0,
+   "y": 2351.84,
+   "s": "High value, active"
+  },
+  {
+   "x": 8.0,
+   "y": 317.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 68.0,
+   "y": 463.90999999999997,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 136.0,
+   "y": 1998.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 111.0,
+   "y": 1012.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 149.0,
+   "y": 139.05,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 19.0,
+   "y": 453.79,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 240.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 142.0,
+   "y": 1309.14,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 6917.150000000001,
+   "s": "High value, active"
+  },
+  {
+   "x": 142.0,
+   "y": 698.55,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 150.0,
+   "y": 185.04999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 20.0,
+   "y": 9044.2,
+   "s": "High value, active"
+  },
+  {
+   "x": 282.0,
+   "y": 321.79,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 97.0,
+   "y": 275.28,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 2732.73,
+   "s": "High value, active"
+  },
+  {
+   "x": 96.0,
+   "y": 394.14,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 69.0,
+   "y": 154.55,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 127.0,
+   "y": 449.42,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 157.0,
+   "y": 362.95,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 18.0,
+   "y": 2104.5,
+   "s": "High value, active"
+  },
+  {
+   "x": 64.0,
+   "y": 333.97,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 229.0,
+   "y": 200.10000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 66.0,
+   "y": 1002.91,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 272.0,
+   "y": 135.39999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 54.0,
+   "y": 1590.71,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 23.0,
+   "y": 2461.33,
+   "s": "High value, active"
+  },
+  {
+   "x": 37.0,
+   "y": 730.86,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 11.0,
+   "y": 14074.19,
+   "s": "High value, active"
+  },
+  {
+   "x": 69.0,
+   "y": 383.85,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 107.0,
+   "y": 428.23,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 188.0,
+   "y": 136.76999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 166.0,
+   "y": 106.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 121.0,
+   "y": 2413.82,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 236.0,
+   "y": 599.97,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 155.0,
+   "y": 117.6,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 282.0,
+   "y": 37.2,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 164.0,
+   "y": 611.94,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 3.0,
+   "y": 174.71,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 171.0,
+   "y": 216.95000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 194.0,
+   "y": 158.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 150.0,
+   "y": 110.25,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 23.0,
+   "y": 6912.0,
+   "s": "High value, active"
+  },
+  {
+   "x": 68.0,
+   "y": 488.55,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 33.0,
+   "y": 838.0500000000001,
+   "s": "High value, active"
+  },
+  {
+   "x": 16.0,
+   "y": 1132.62,
+   "s": "High value, active"
+  },
+  {
+   "x": 111.0,
+   "y": 218.25,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 18.0,
+   "y": 1413.45,
+   "s": "High value, active"
+  },
+  {
+   "x": 107.0,
+   "y": 426.43,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 46.0,
+   "y": 2214.33,
+   "s": "High value, active"
+  },
+  {
+   "x": 2.0,
+   "y": 628.87,
+   "s": "High value, active"
+  },
+  {
+   "x": 156.0,
+   "y": 399.91,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 48.0,
+   "y": 881.07,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 275.0,
+   "y": 367.14,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 166.0,
+   "y": 239.95999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 146.0,
+   "y": 509.90000000000003,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 149.0,
+   "y": 328.15999999999997,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 525.37,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 64.0,
+   "y": 626.88,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 50.0,
+   "y": 2885.58,
+   "s": "High value, active"
+  },
+  {
+   "x": 191.0,
+   "y": 126.03999999999999,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 37.0,
+   "y": 982.42,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 212.0,
+   "y": 186.34,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 96.0,
+   "y": 129.49,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 87.0,
+   "y": 142.92,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 152.0,
+   "y": 841.4999999999999,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 144.0,
+   "y": 150.3,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 78.0,
+   "y": 580.74,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 961.28,
+   "s": "High value, active"
+  },
+  {
+   "x": 3.0,
+   "y": 1678.97,
+   "s": "High value, active"
+  },
+  {
+   "x": 79.0,
+   "y": 291.05,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 69.0,
+   "y": 441.59000000000003,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 191.0,
+   "y": 348.2,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 3015.96,
+   "s": "High value, active"
+  },
+  {
+   "x": 162.0,
+   "y": 212.77,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 222.0,
+   "y": 901.78,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 65.0,
+   "y": 308.58000000000004,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 192.0,
+   "y": 848.05,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 137.0,
+   "y": 432.43,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 37.0,
+   "y": 133.20000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 45.0,
+   "y": 884.34,
+   "s": "High value, active"
+  },
+  {
+   "x": 1.0,
+   "y": 3467.81,
+   "s": "High value, active"
+  },
+  {
+   "x": 221.0,
+   "y": 538.8100000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 69.0,
+   "y": 1692.31,
+   "s": "High value, active"
+  },
+  {
+   "x": 18.0,
+   "y": 750.89,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 45.0,
+   "y": 16620.91,
+   "s": "High value, active"
+  },
+  {
+   "x": 19.0,
+   "y": 490.96,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 283.0,
+   "y": 311.81,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 22.0,
+   "y": 306.37,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 97.0,
+   "y": 59.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 151.0,
+   "y": 1047.11,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 89.0,
+   "y": 645.23,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 29.0,
+   "y": 364.04,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 1.0,
+   "y": 140.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 137.0,
+   "y": 1065.3500000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 8.0,
+   "y": 3766.13,
+   "s": "High value, active"
+  },
+  {
+   "x": 216.0,
+   "y": 108.07,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 51.0,
+   "y": 283.12,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 3499.08,
+   "s": "High value, active"
+  },
+  {
+   "x": 13.0,
+   "y": 999.63,
+   "s": "High value, active"
+  },
+  {
+   "x": 58.0,
+   "y": 2102.67,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 29.0,
+   "y": 138.32,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 271.0,
+   "y": 777.5600000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 172.0,
+   "y": 512.13,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 2869.7,
+   "s": "High value, active"
+  },
+  {
+   "x": 19.0,
+   "y": 1710.94,
+   "s": "High value, active"
+  },
+  {
+   "x": 54.0,
+   "y": 943.29,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 24.0,
+   "y": 932.97,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 184.0,
+   "y": 189.16,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 281.0,
+   "y": 124.14,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 122.0,
+   "y": 85.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 144.0,
+   "y": 765.55,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 401.6,
+   "s": "High value, active"
+  },
+  {
+   "x": 117.0,
+   "y": 463.38,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 4.0,
+   "y": 1880.89,
+   "s": "High value, active"
+  },
+  {
+   "x": 125.0,
+   "y": 457.81,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 53.0,
+   "y": 1618.3,
+   "s": "High value, active"
+  },
+  {
+   "x": 38.0,
+   "y": 275.88,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 216.0,
+   "y": 411.27,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 4.0,
+   "y": 2036.28,
+   "s": "High value, active"
+  },
+  {
+   "x": 228.0,
+   "y": 120.94999999999999,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 58.0,
+   "y": 522.52,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 242.0,
+   "y": 252.42000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 34.0,
+   "y": 375.1,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 1801.14,
+   "s": "High value, active"
+  },
+  {
+   "x": 64.0,
+   "y": 629.64,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 200.0,
+   "y": 3202.9199999999996,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 58.0,
+   "y": 299.18,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 229.0,
+   "y": 480.91,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 372.4,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 53.0,
+   "y": 937.3000000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 15.0,
+   "y": 985.8000000000001,
+   "s": "High value, active"
+  },
+  {
+   "x": 132.0,
+   "y": 810.56,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 55.0,
+   "y": 1714.27,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 19.0,
+   "y": 552.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 107.0,
+   "y": 1763.04,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 569.13,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 192.0,
+   "y": 828.84,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 226.0,
+   "y": 2030.06,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 47.0,
+   "y": 2617.41,
+   "s": "High value, active"
+  },
+  {
+   "x": 1.0,
+   "y": 59.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 269.0,
+   "y": 283.53000000000003,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 44.0,
+   "y": 832.78,
+   "s": "High value, active"
+  },
+  {
+   "x": 34.0,
+   "y": 1603.86,
+   "s": "High value, active"
+  },
+  {
+   "x": 283.0,
+   "y": 313.49,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 72.0,
+   "y": 300.04,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 855.0,
+   "s": "High value, active"
+  },
+  {
+   "x": 6.0,
+   "y": 300.04,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 8.0,
+   "y": 2505.41,
+   "s": "High value, active"
+  },
+  {
+   "x": 148.0,
+   "y": 1143.6,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 1989.23,
+   "s": "High value, active"
+  },
+  {
+   "x": 5.0,
+   "y": 1080.8799999999999,
+   "s": "High value, active"
+  },
+  {
+   "x": 4.0,
+   "y": 2554.84,
+   "s": "High value, active"
+  },
+  {
+   "x": 115.0,
+   "y": 670.17,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 97.0,
+   "y": 677.4,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 192.0,
+   "y": 348.05,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 1.0,
+   "y": 13388.49,
+   "s": "High value, active"
+  },
+  {
+   "x": 111.0,
+   "y": 797.65,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 146.0,
+   "y": 822.18,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 19.0,
+   "y": 2978.5,
+   "s": "High value, active"
+  },
+  {
+   "x": 43.0,
+   "y": 358.82,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 107.0,
+   "y": 151.79999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 65.0,
+   "y": 611.22,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 48.0,
+   "y": 494.08,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 4.0,
+   "y": 6579.62,
+   "s": "High value, active"
+  },
+  {
+   "x": 94.0,
+   "y": 878.55,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 15.0,
+   "y": 9229.54,
+   "s": "High value, active"
+  },
+  {
+   "x": 125.0,
+   "y": 285.94,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 76.0,
+   "y": 131.45000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 190.0,
+   "y": 119.31,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 25.0,
+   "y": 539.13,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 97.0,
+   "y": 272.48,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 53.0,
+   "y": 1892.95,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 128.0,
+   "y": 400.3,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 78.0,
+   "y": 494.54,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 20.0,
+   "y": 434.34,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 200.0,
+   "y": 872.8,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 66.0,
+   "y": 2014.7,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 163.0,
+   "y": 237.46,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 114.0,
+   "y": 1023.78,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 93.0,
+   "y": 308.68,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 62.0,
+   "y": 1817.54,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 172.0,
+   "y": 4517.69,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 136.0,
+   "y": 997.94,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 59.0,
+   "y": 1163.22,
+   "s": "High value, active"
+  },
+  {
+   "x": 113.0,
+   "y": 2065.41,
+   "s": "High value, active"
+  },
+  {
+   "x": 275.0,
+   "y": 103.7,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 277.0,
+   "y": 87.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 15.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 198.0,
+   "y": 702.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 75.0,
+   "y": 1780.72,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 277.0,
+   "y": 230.39999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 130.0,
+   "y": 875.01,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 20.0,
+   "y": 288.83,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 5639.81,
+   "s": "High value, active"
+  },
+  {
+   "x": 17.0,
+   "y": 3276.62,
+   "s": "High value, active"
+  },
+  {
+   "x": 37.0,
+   "y": 475.03,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 87.0,
+   "y": 303.43,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 282.0,
+   "y": 350.06,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 109.0,
+   "y": 159.56,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 193.0,
+   "y": 434.59000000000003,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 45911.64,
+   "s": "High value, active"
+  },
+  {
+   "x": 101.0,
+   "y": 1045.38,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 101.0,
+   "y": 90.75,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 1505.65,
+   "s": "High value, active"
+  },
+  {
+   "x": 199.0,
+   "y": 101.69999999999999,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 135.0,
+   "y": 314.22,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 67.0,
+   "y": 416.08000000000004,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 142.0,
+   "y": 225.15,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 83.0,
+   "y": 1083.02,
+   "s": "High value, active"
+  },
+  {
+   "x": 162.0,
+   "y": 417.95,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 51.0,
+   "y": 1209.73,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 127.0,
+   "y": 442.41,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 24.0,
+   "y": 3947.15,
+   "s": "High value, active"
+  },
+  {
+   "x": 48.0,
+   "y": 601.9399999999999,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 93.0,
+   "y": 385.5,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 3924.73,
+   "s": "High value, active"
+  },
+  {
+   "x": 32.0,
+   "y": 4636.51,
+   "s": "High value, active"
+  },
+  {
+   "x": 114.0,
+   "y": 639.5,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 283.0,
+   "y": 274.93,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 149.0,
+   "y": 224.73,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 276.0,
+   "y": 190.34,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 185.0,
+   "y": 298.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 44.0,
+   "y": 540.13,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 81.0,
+   "y": 221.56,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 24.0,
+   "y": 304.24,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 67.0,
+   "y": 437.02,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 207.0,
+   "y": 928.03,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 187.0,
+   "y": 162.7,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 121.0,
+   "y": 334.54,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 2745.42,
+   "s": "High value, active"
+  },
+  {
+   "x": 249.0,
+   "y": 168.3,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 166.0,
+   "y": 346.6,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 19.0,
+   "y": 876.66,
+   "s": "High value, active"
+  },
+  {
+   "x": 9.0,
+   "y": 869.76,
+   "s": "High value, active"
+  },
+  {
+   "x": 57.0,
+   "y": 1088.45,
+   "s": "High value, active"
+  },
+  {
+   "x": 59.0,
+   "y": 1672.81,
+   "s": "High value, active"
+  },
+  {
+   "x": 16.0,
+   "y": 214.68,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 27.0,
+   "y": 2976.69,
+   "s": "High value, active"
+  },
+  {
+   "x": 10.0,
+   "y": 11666.5,
+   "s": "High value, active"
+  },
+  {
+   "x": 132.0,
+   "y": 314.11,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 66.0,
+   "y": 478.6,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 235.0,
+   "y": 77183.6,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 34.0,
+   "y": 484.79,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 187.0,
+   "y": 1656.15,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 93.0,
+   "y": 1412.15,
+   "s": "High value, active"
+  },
+  {
+   "x": 145.0,
+   "y": 630.08,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 4.0,
+   "y": 15169.46,
+   "s": "High value, active"
+  },
+  {
+   "x": 229.0,
+   "y": 165.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 73.0,
+   "y": 318.85,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 19.0,
+   "y": 1571.77,
+   "s": "High value, active"
+  },
+  {
+   "x": 43.0,
+   "y": 757.6500000000001,
+   "s": "High value, active"
+  },
+  {
+   "x": 2.0,
+   "y": 1462.42,
+   "s": "High value, active"
+  },
+  {
+   "x": 111.0,
+   "y": 765.28,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 48.0,
+   "y": 2944.95,
+   "s": "High value, active"
+  },
+  {
+   "x": 99.0,
+   "y": 2999.41,
+   "s": "High value, active"
+  },
+  {
+   "x": 198.0,
+   "y": 1340.32,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 15.0,
+   "y": 2556.37,
+   "s": "High value, active"
+  },
+  {
+   "x": 20.0,
+   "y": 853.9,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 179.0,
+   "y": 138.28,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 1185.35,
+   "s": "High value, active"
+  },
+  {
+   "x": 54.0,
+   "y": 113.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 32.0,
+   "y": 1571.29,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 223.0,
+   "y": 195.35,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 244.0,
+   "y": 461.48,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 10.0,
+   "y": 1653.03,
+   "s": "High value, active"
+  },
+  {
+   "x": 17.0,
+   "y": 1008.6,
+   "s": "High value, active"
+  },
+  {
+   "x": 109.0,
+   "y": 635.92,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 40.0,
+   "y": 1900.82,
+   "s": "High value, active"
+  },
+  {
+   "x": 58.0,
+   "y": 1506.92,
+   "s": "High value, active"
+  },
+  {
+   "x": 45.0,
+   "y": 1109.81,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 1.0,
+   "y": 5496.9,
+   "s": "High value, active"
+  },
+  {
+   "x": 229.0,
+   "y": 387.27000000000004,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 4739.02,
+   "s": "High value, active"
+  },
+  {
+   "x": 146.0,
+   "y": 630.84,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 125.0,
+   "y": 1044.95,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 225.0,
+   "y": 689.5699999999999,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 198.0,
+   "y": 180.68,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 173.0,
+   "y": 200.29,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 143.0,
+   "y": 267.03,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 89.0,
+   "y": 491.71000000000004,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 31.0,
+   "y": 841.77,
+   "s": "High value, active"
+  },
+  {
+   "x": 26.0,
+   "y": 688.86,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 81.0,
+   "y": 475.86,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 86.0,
+   "y": 1838.51,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 36.0,
+   "y": 3613.63,
+   "s": "High value, active"
+  },
+  {
+   "x": 46.0,
+   "y": 2191.78,
+   "s": "High value, active"
+  },
+  {
+   "x": 62.0,
+   "y": 659.25,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 4.0,
+   "y": 1681.83,
+   "s": "High value, active"
+  },
+  {
+   "x": 269.0,
+   "y": 80.64,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 41.0,
+   "y": 1585.47,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 1612.18,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 22.0,
+   "y": 2867.6800000000003,
+   "s": "High value, active"
+  },
+  {
+   "x": 66.0,
+   "y": 597.09,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 3870.02,
+   "s": "High value, active"
+  },
+  {
+   "x": 275.0,
+   "y": 365.8,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 2288.08,
+   "s": "High value, active"
+  },
+  {
+   "x": 17.0,
+   "y": 569.51,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 95.0,
+   "y": 647.7,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 15.0,
+   "y": 2316.9,
+   "s": "High value, active"
+  },
+  {
+   "x": 121.0,
+   "y": 266.59000000000003,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 282.0,
+   "y": 5391.21,
+   "s": "High value, active"
+  },
+  {
+   "x": 43.0,
+   "y": 696.56,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 40.0,
+   "y": 759.56,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 22.0,
+   "y": 208.05,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 94.0,
+   "y": 1452.68,
+   "s": "High value, active"
+  },
+  {
+   "x": 171.0,
+   "y": 162.65,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 143.0,
+   "y": 149.57999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 197.0,
+   "y": 401.37,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 117.0,
+   "y": 132.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 173.0,
+   "y": 158.95000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 185.0,
+   "y": 315.37,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 262.0,
+   "y": 110.39999999999999,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 82.0,
+   "y": 3316.6600000000003,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 2651.46,
+   "s": "High value, active"
+  },
+  {
+   "x": 73.0,
+   "y": 646.64,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 267.0,
+   "y": 190.55,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 278.0,
+   "y": 76.32000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 23.0,
+   "y": 2192.4,
+   "s": "High value, active"
+  },
+  {
+   "x": 39.0,
+   "y": 2856.71,
+   "s": "High value, active"
+  },
+  {
+   "x": 71.0,
+   "y": 1422.3799999999999,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 170.0,
+   "y": 356.81,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 267.0,
+   "y": 177.95,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 223.0,
+   "y": 109.25,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 20.0,
+   "y": 3962.02,
+   "s": "High value, active"
+  },
+  {
+   "x": 115.0,
+   "y": 2.9,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 128.0,
+   "y": 613.26,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 50.0,
+   "y": 2393.69,
+   "s": "High value, active"
+  },
+  {
+   "x": 1.0,
+   "y": 296.64,
+   "s": "High value, active"
+  },
+  {
+   "x": 47.0,
+   "y": 701.46,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 222.0,
+   "y": 219.52,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 146.0,
+   "y": 226.84,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 193.64,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 1.0,
+   "y": 314.65999999999997,
+   "s": "High value, active"
+  },
+  {
+   "x": 44.0,
+   "y": 408.36,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 207.0,
+   "y": 821.1,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 678.16,
+   "s": "High value, active"
+  },
+  {
+   "x": 120.0,
+   "y": 519.68,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 283.0,
+   "y": 155.52,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 23.0,
+   "y": 2106.45,
+   "s": "High value, active"
+  },
+  {
+   "x": 31.0,
+   "y": 416.12,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 22.0,
+   "y": 4288.0,
+   "s": "High value, active"
+  },
+  {
+   "x": 76.0,
+   "y": 196.64,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 57.0,
+   "y": 358.56000000000006,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 173.0,
+   "y": 15.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 100.0,
+   "y": 235.23000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 129.0,
+   "y": 1693.45,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 233.0,
+   "y": 115.8,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 183.0,
+   "y": 516.42,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 43.0,
+   "y": 2766.01,
+   "s": "High value, active"
+  },
+  {
+   "x": 4.0,
+   "y": 11352.14,
+   "s": "High value, active"
+  },
+  {
+   "x": 19.0,
+   "y": 684.8,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 33.0,
+   "y": 2725.84,
+   "s": "High value, active"
+  },
+  {
+   "x": 53.0,
+   "y": 443.94,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 13.0,
+   "y": 565.54,
+   "s": "High value, active"
+  },
+  {
+   "x": 199.0,
+   "y": 94.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 36.0,
+   "y": 933.26,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 275.0,
+   "y": 112.6,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 110.0,
+   "y": 163.20000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 178.0,
+   "y": 1829.04,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 170.0,
+   "y": 95.75999999999999,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 228.0,
+   "y": 257.9,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 125.0,
+   "y": 312.28,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 110.0,
+   "y": 339.59999999999997,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 15.0,
+   "y": 329.67,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 107.0,
+   "y": 1448.21,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 118.0,
+   "y": 112.8,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 246.0,
+   "y": 293.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 83.0,
+   "y": 289.36,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 247.0,
+   "y": 236.02,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 1237.53,
+   "s": "High value, active"
+  },
+  {
+   "x": 149.0,
+   "y": 215.70000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 2188.42,
+   "s": "High value, active"
+  },
+  {
+   "x": 24.0,
+   "y": 1562.8700000000001,
+   "s": "High value, active"
+  },
+  {
+   "x": 17.0,
+   "y": 587.28,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 429.3,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 1957.75,
+   "s": "High value, active"
+  },
+  {
+   "x": 54.0,
+   "y": 165.20000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 159.0,
+   "y": 611.97,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 111.0,
+   "y": 145.9,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 19.0,
+   "y": 4222.74,
+   "s": "High value, active"
+  },
+  {
+   "x": 74.0,
+   "y": 491.90000000000003,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 41.0,
+   "y": 1463.66,
+   "s": "High value, active"
+  },
+  {
+   "x": 5.0,
+   "y": 205.3,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 29.0,
+   "y": 1028.74,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 3.0,
+   "y": 2328.71,
+   "s": "High value, active"
+  },
+  {
+   "x": 54.0,
+   "y": 2526.76,
+   "s": "High value, active"
+  },
+  {
+   "x": 4.0,
+   "y": 537.9,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 54.0,
+   "y": 563.7,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 127.0,
+   "y": 261.36,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 24.0,
+   "y": 1633.78,
+   "s": "High value, active"
+  },
+  {
+   "x": 153.0,
+   "y": 431.49,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 26.0,
+   "y": 3865.35,
+   "s": "High value, active"
+  },
+  {
+   "x": 1.0,
+   "y": 111.78,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 18.0,
+   "y": 2362.96,
+   "s": "High value, active"
+  },
+  {
+   "x": 184.0,
+   "y": 310.47,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 99.0,
+   "y": 506.8,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 127.0,
+   "y": 351.08,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 1619.8400000000001,
+   "s": "High value, active"
+  },
+  {
+   "x": 26.0,
+   "y": 3641.25,
+   "s": "High value, active"
+  },
+  {
+   "x": 44.0,
+   "y": 1486.9,
+   "s": "High value, active"
+  },
+  {
+   "x": 33.0,
+   "y": 1179.62,
+   "s": "High value, active"
+  },
+  {
+   "x": 199.0,
+   "y": 497.59,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 90.0,
+   "y": 1464.89,
+   "s": "High value, active"
+  },
+  {
+   "x": 3.0,
+   "y": 45987.39,
+   "s": "High value, active"
+  },
+  {
+   "x": 120.0,
+   "y": 539.17,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 80.0,
+   "y": 414.87,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 174.0,
+   "y": 172.9,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 19.0,
+   "y": 1605.65,
+   "s": "High value, active"
+  },
+  {
+   "x": 159.0,
+   "y": 535.34,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 128.0,
+   "y": 253.04,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 48.0,
+   "y": 1630.4,
+   "s": "High value, active"
+  },
+  {
+   "x": 246.0,
+   "y": 135.9,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 61.0,
+   "y": 1212.26,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 2493.83,
+   "s": "High value, active"
+  },
+  {
+   "x": 125.0,
+   "y": 993.52,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 55.0,
+   "y": 152.68,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 89.0,
+   "y": 2375.57,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 24.0,
+   "y": 605.0600000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 181.0,
+   "y": 153.41,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 171.0,
+   "y": 25.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 452.20000000000005,
+   "s": "High value, active"
+  },
+  {
+   "x": 99.0,
+   "y": 347.9,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 156.51,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 39.0,
+   "y": 1732.75,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 117.0,
+   "y": 687.58,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 121.0,
+   "y": 101.4,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 192.0,
+   "y": 85.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 124.0,
+   "y": 109.13000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 23.0,
+   "y": 170.54000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 240.0,
+   "y": 250.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 29117.7,
+   "s": "High value, active"
+  },
+  {
+   "x": 81.0,
+   "y": 528.45,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 78.0,
+   "y": 2222.21,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 8.0,
+   "y": 115.31,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 283.0,
+   "y": 232.03,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 22.0,
+   "y": 139.26,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 115.0,
+   "y": 236.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 936.55,
+   "s": "High value, active"
+  },
+  {
+   "x": 3.0,
+   "y": 4820.46,
+   "s": "High value, active"
+  },
+  {
+   "x": 1.0,
+   "y": 2355.63,
+   "s": "High value, active"
+  },
+  {
+   "x": 15.0,
+   "y": 1328.32,
+   "s": "High value, active"
+  },
+  {
+   "x": 97.0,
+   "y": 324.9,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 184.0,
+   "y": 298.5,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 797.02,
+   "s": "High value, active"
+  },
+  {
+   "x": 85.0,
+   "y": 1409.69,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 65.0,
+   "y": 781.03,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 64.0,
+   "y": 216.20999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 53.0,
+   "y": 1757.48,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 135.0,
+   "y": 160.95,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 272.0,
+   "y": 141.04,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 82.0,
+   "y": 323.03000000000003,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 166.0,
+   "y": 226.71,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 32.0,
+   "y": 804.02,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 3119.34,
+   "s": "High value, active"
+  },
+  {
+   "x": 3.0,
+   "y": 260.63,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 270.0,
+   "y": 479.35,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 170.0,
+   "y": 357.53,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 193.0,
+   "y": 204.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 33.0,
+   "y": 175.2,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 123.0,
+   "y": 596.85,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 96.0,
+   "y": 674.73,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 78.0,
+   "y": 388.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 26.0,
+   "y": 905.5,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 93.0,
+   "y": 213.70000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 39.0,
+   "y": 406.09,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 34.0,
+   "y": 2398.62,
+   "s": "High value, active"
+  },
+  {
+   "x": 66.0,
+   "y": 1030.4,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 46.0,
+   "y": 1943.57,
+   "s": "High value, active"
+  },
+  {
+   "x": 76.0,
+   "y": 228.2,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 194.0,
+   "y": 249.57,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 44.0,
+   "y": 1277.75,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 86.0,
+   "y": 5.9,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 59.0,
+   "y": 311.92,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 46.0,
+   "y": 136.29,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 40.0,
+   "y": 651.77,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 11.0,
+   "y": 822.12,
+   "s": "High value, active"
+  },
+  {
+   "x": 143.0,
+   "y": 454.24,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 81.0,
+   "y": 190.53,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 116.0,
+   "y": 817.65,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 114.0,
+   "y": 319.37,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 252.1,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 41.0,
+   "y": 1825.4,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 22.0,
+   "y": 668.58,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 145.0,
+   "y": 176.60999999999999,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 79.0,
+   "y": 158.85,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 25.0,
+   "y": 1641.76,
+   "s": "High value, active"
+  },
+  {
+   "x": 121.0,
+   "y": 317.59999999999997,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 229.0,
+   "y": 206.98,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 20.0,
+   "y": 261.79,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 211.0,
+   "y": 186.39000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 176.0,
+   "y": 118.75,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 3548.5,
+   "s": "High value, active"
+  },
+  {
+   "x": 92.0,
+   "y": 3468.47,
+   "s": "High value, active"
+  },
+  {
+   "x": 114.0,
+   "y": 448.83,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 146.0,
+   "y": 649.38,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 178.0,
+   "y": 142.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 428.18,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 128.0,
+   "y": 208.36,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 129.0,
+   "y": 1008.39,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 905.6,
+   "s": "High value, active"
+  },
+  {
+   "x": 23.0,
+   "y": 1860.9,
+   "s": "High value, active"
+  },
+  {
+   "x": 3.0,
+   "y": 8809.24,
+   "s": "High value, active"
+  },
+  {
+   "x": 58.0,
+   "y": 309.4,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 271.0,
+   "y": 145.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 8.0,
+   "y": 529.62,
+   "s": "High value, active"
+  },
+  {
+   "x": 97.0,
+   "y": 497.7,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 263.0,
+   "y": 1141.24,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 171.0,
+   "y": 287.65000000000003,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 190.0,
+   "y": 3811.95,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 122.0,
+   "y": 326.19,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 155.0,
+   "y": 266.4,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 95.0,
+   "y": 152.4,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 29.0,
+   "y": 870.3000000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 144.0,
+   "y": 512.28,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 13.0,
+   "y": 2897.33,
+   "s": "High value, active"
+  },
+  {
+   "x": 106.0,
+   "y": 2399.52,
+   "s": "High value, active"
+  },
+  {
+   "x": 3.0,
+   "y": 11091.24,
+   "s": "High value, active"
+  },
+  {
+   "x": 3.0,
+   "y": 1698.97,
+   "s": "High value, active"
+  },
+  {
+   "x": 61.0,
+   "y": 9386.32,
+   "s": "High value, active"
+  },
+  {
+   "x": 32.0,
+   "y": 326.4,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 127.0,
+   "y": 59.9,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 121.0,
+   "y": 816.73,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 4612.64,
+   "s": "High value, active"
+  },
+  {
+   "x": 80.0,
+   "y": 1108.18,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 177.0,
+   "y": 251.51999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 267.0,
+   "y": 158.16,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 34.0,
+   "y": 451.11,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 94.0,
+   "y": 199.15,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 220.0,
+   "y": 381.89,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 36.0,
+   "y": 1431.45,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 41.0,
+   "y": 765.3199999999999,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 236.0,
+   "y": 146.85,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 160.0,
+   "y": 1288.96,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 120.0,
+   "y": 1106.4,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 1.0,
+   "y": 6395.23,
+   "s": "High value, active"
+  },
+  {
+   "x": 62.0,
+   "y": 1433.25,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 27.0,
+   "y": 977.22,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 20.0,
+   "y": 473.02,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 65.0,
+   "y": 1837.92,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 19.0,
+   "y": 2165.55,
+   "s": "High value, active"
+  },
+  {
+   "x": 153.0,
+   "y": 239.49,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 228.0,
+   "y": 417.69,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 79.0,
+   "y": 503.59999999999997,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 226.0,
+   "y": 268.8,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 335.52,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 64.0,
+   "y": 322.96,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 48.0,
+   "y": 868.49,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 41.0,
+   "y": 573.91,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 207.0,
+   "y": 1784.71,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 60.0,
+   "y": 490.11,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 1.0,
+   "y": 650.42,
+   "s": "High value, active"
+  },
+  {
+   "x": 10.0,
+   "y": 189.79999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 156.0,
+   "y": 303.04,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 82.0,
+   "y": 2482.88,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 194.0,
+   "y": 190.7,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 110.0,
+   "y": 735.62,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 29.0,
+   "y": 1341.65,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 232.0,
+   "y": 135.75,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 162.0,
+   "y": 2516.47,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 155.0,
+   "y": 392.4,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 224.8,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 246.0,
+   "y": 304.24,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 1420.72,
+   "s": "High value, active"
+  },
+  {
+   "x": 283.0,
+   "y": 233.45,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 48.0,
+   "y": 991.52,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 146.0,
+   "y": 175.27,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 184.0,
+   "y": 223.95000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 128.0,
+   "y": 143.45999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 190.0,
+   "y": 50.8,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 18.0,
+   "y": 2258.26,
+   "s": "High value, active"
+  },
+  {
+   "x": 66.0,
+   "y": 197.88,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 159.0,
+   "y": 12.75,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 4.0,
+   "y": 854.95,
+   "s": "High value, active"
+  },
+  {
+   "x": 268.0,
+   "y": 351.3,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 39.0,
+   "y": 919.61,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 318.65,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 36.0,
+   "y": 155.8,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 121.0,
+   "y": 214.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 10.0,
+   "y": 7373.92,
+   "s": "High value, active"
+  },
+  {
+   "x": 25.0,
+   "y": 1573.33,
+   "s": "High value, active"
+  },
+  {
+   "x": 240.0,
+   "y": 201.19,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 131.81,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 32.0,
+   "y": 674.7,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 61.0,
+   "y": 830.98,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 79.0,
+   "y": 1865.7,
+   "s": "High value, active"
+  },
+  {
+   "x": 16.0,
+   "y": 413.2,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 2773.04,
+   "s": "High value, active"
+  },
+  {
+   "x": 17.0,
+   "y": 5333.97,
+   "s": "High value, active"
+  },
+  {
+   "x": 52.0,
+   "y": 545.68,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 4.0,
+   "y": 3640.02,
+   "s": "High value, active"
+  },
+  {
+   "x": 241.0,
+   "y": 197.65,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 158.0,
+   "y": 594.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 4.0,
+   "y": 1411.23,
+   "s": "High value, active"
+  },
+  {
+   "x": 26.0,
+   "y": 321.48,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 1985.9,
+   "s": "High value, active"
+  },
+  {
+   "x": 171.0,
+   "y": 77.3,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 47.0,
+   "y": 675.51,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 283.0,
+   "y": 256.44,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 41182.51,
+   "s": "High value, active"
+  },
+  {
+   "x": 16.0,
+   "y": 3055.77,
+   "s": "High value, active"
+  },
+  {
+   "x": 207.0,
+   "y": 576.9000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 116.0,
+   "y": 1069.47,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 47.0,
+   "y": 591.55,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 212.0,
+   "y": 167.25,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 59.0,
+   "y": 295.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 165.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 114.0,
+   "y": 468.77000000000004,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 264.0,
+   "y": 286.95,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 198.0,
+   "y": 145.92,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 110.0,
+   "y": 542.95,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 184.0,
+   "y": 333.08,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 8.0,
+   "y": 363.79,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 32.0,
+   "y": 779.12,
+   "s": "High value, active"
+  },
+  {
+   "x": 83.0,
+   "y": 751.78,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 270.0,
+   "y": 1138.37,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 58.0,
+   "y": 1668.3400000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 1489.04,
+   "s": "High value, active"
+  },
+  {
+   "x": 39.0,
+   "y": 4008.62,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 177729.62,
+   "s": "High value, active"
+  },
+  {
+   "x": 101.0,
+   "y": 697.54,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 15.0,
+   "y": 285.16,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 2355.54,
+   "s": "High value, active"
+  },
+  {
+   "x": 158.0,
+   "y": 282.88,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 159.0,
+   "y": 304.25,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 4371.53,
+   "s": "High value, active"
+  },
+  {
+   "x": 37.0,
+   "y": 2682.01,
+   "s": "High value, active"
+  },
+  {
+   "x": 226.0,
+   "y": 458.52,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 47.0,
+   "y": 2007.3999999999999,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 23.0,
+   "y": 10787.06,
+   "s": "High value, active"
+  },
+  {
+   "x": 47.0,
+   "y": 836.74,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 10.0,
+   "y": 8834.03,
+   "s": "High value, active"
+  },
+  {
+   "x": 8.0,
+   "y": 5280.42,
+   "s": "High value, active"
+  },
+  {
+   "x": 11.0,
+   "y": 2918.81,
+   "s": "High value, active"
+  },
+  {
+   "x": 6.0,
+   "y": 582.9,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 26.0,
+   "y": 125.9,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 96.0,
+   "y": 397.58,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 176.0,
+   "y": 183.6,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 65.0,
+   "y": 2165.27,
+   "s": "High value, active"
+  },
+  {
+   "x": 128.0,
+   "y": 265.2,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 121.0,
+   "y": 562.79,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 81.0,
+   "y": 2831.26,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 148.0,
+   "y": 30.599999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 100.0,
+   "y": 296.7,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 102.0,
+   "y": 309.54,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 48.0,
+   "y": 2195.23,
+   "s": "High value, active"
+  },
+  {
+   "x": 9.0,
+   "y": 2158.18,
+   "s": "High value, active"
+  },
+  {
+   "x": 51.0,
+   "y": 1132.6299999999999,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 116.0,
+   "y": 477.79,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 1.0,
+   "y": 1047.19,
+   "s": "High value, active"
+  },
+  {
+   "x": 40.0,
+   "y": 3213.19,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 104.0,
+   "y": 240.89000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 22.0,
+   "y": 1560.6599999999999,
+   "s": "High value, active"
+  },
+  {
+   "x": 282.0,
+   "y": 248.1,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 268.0,
+   "y": 409.50000000000006,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 67.0,
+   "y": 160.42000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 5666.45,
+   "s": "High value, active"
+  },
+  {
+   "x": 113.0,
+   "y": 172.29000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 61.0,
+   "y": 1270.42,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 464.86,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 268.0,
+   "y": 76.55,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 114.0,
+   "y": 125.43,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 1579.12,
+   "s": "High value, active"
+  },
+  {
+   "x": 10.0,
+   "y": 1317.62,
+   "s": "High value, active"
+  },
+  {
+   "x": 8.0,
+   "y": 115.1,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 83.0,
+   "y": 720.52,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 205.0,
+   "y": 152.65,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 86301.54,
+   "s": "High value, active"
+  },
+  {
+   "x": 106.0,
+   "y": 559.87,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 66.0,
+   "y": 1951.05,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 121.74000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 4505.85,
+   "s": "High value, active"
+  },
+  {
+   "x": 200.0,
+   "y": 292.63,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 690.02,
+   "s": "High value, active"
+  },
+  {
+   "x": 55.0,
+   "y": 559.55,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 36.0,
+   "y": 2206.18,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 173.0,
+   "y": 298.11,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 215.0,
+   "y": 393.33000000000004,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 222.0,
+   "y": 501.39000000000004,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 228.0,
+   "y": 99.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 123.0,
+   "y": 2044.3700000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 29.0,
+   "y": 3259.62,
+   "s": "High value, active"
+  },
+  {
+   "x": 88.0,
+   "y": 264.62,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 212.0,
+   "y": 470.36,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 58.0,
+   "y": 370.61,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 36.0,
+   "y": 9627.03,
+   "s": "High value, active"
+  },
+  {
+   "x": 37.0,
+   "y": 2134.07,
+   "s": "High value, active"
+  },
+  {
+   "x": 59.0,
+   "y": 1714.67,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 78.0,
+   "y": 1307.3500000000001,
+   "s": "High value, active"
+  },
+  {
+   "x": 38.0,
+   "y": 963.88,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 177.0,
+   "y": 333.74,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 193.0,
+   "y": 897.8,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 74.0,
+   "y": 550.57,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 239.0,
+   "y": 421.9,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 71.0,
+   "y": 405.38,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 192.0,
+   "y": 162.3,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 268.0,
+   "y": 271.05,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 279.0,
+   "y": 606.0500000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 23.0,
+   "y": 2730.78,
+   "s": "High value, active"
+  },
+  {
+   "x": 8.0,
+   "y": 2137.3,
+   "s": "High value, active"
+  },
+  {
+   "x": 18.0,
+   "y": 2929.75,
+   "s": "High value, active"
+  },
+  {
+   "x": 48.0,
+   "y": 884.2,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 151.0,
+   "y": 246.04,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 1885.95,
+   "s": "High value, active"
+  },
+  {
+   "x": 143.0,
+   "y": 157.2,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 44.0,
+   "y": 274.74,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 214.0,
+   "y": 141.92000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 1711.75,
+   "s": "High value, active"
+  },
+  {
+   "x": 22.0,
+   "y": 1220.26,
+   "s": "High value, active"
+  },
+  {
+   "x": 90.0,
+   "y": 483.25,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 25.0,
+   "y": 1728.11,
+   "s": "High value, active"
+  },
+  {
+   "x": 26.0,
+   "y": 1535.78,
+   "s": "High value, active"
+  },
+  {
+   "x": 218.0,
+   "y": 550.8000000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 23.0,
+   "y": 2940.87,
+   "s": "High value, active"
+  },
+  {
+   "x": 55.0,
+   "y": 1785.28,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 66.0,
+   "y": 2851.2,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 41.0,
+   "y": 2375.41,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 123.0,
+   "y": 370.79999999999995,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 48.0,
+   "y": 501.14,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 121.0,
+   "y": 612.78,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 174.0,
+   "y": 267.18,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 55.0,
+   "y": 2590.21,
+   "s": "High value, active"
+  },
+  {
+   "x": 4.0,
+   "y": 1124.49,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 268.0,
+   "y": 332.18,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 10.0,
+   "y": 4403.53,
+   "s": "High value, active"
+  },
+  {
+   "x": 17.0,
+   "y": 333.90000000000003,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 1843.36,
+   "s": "High value, active"
+  },
+  {
+   "x": 99.0,
+   "y": 39.12,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 115.0,
+   "y": 198.87,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 244.0,
+   "y": 195.45,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 274.0,
+   "y": 173.7,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 90.0,
+   "y": 727.67,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 108.0,
+   "y": 647.32,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 87.0,
+   "y": 675.64,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 197.0,
+   "y": 64.05,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 94.0,
+   "y": 531.63,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 174.0,
+   "y": 320.62,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 4.0,
+   "y": 1201.06,
+   "s": "High value, active"
+  },
+  {
+   "x": 19.0,
+   "y": 730.84,
+   "s": "High value, active"
+  },
+  {
+   "x": 31.0,
+   "y": 1891.9,
+   "s": "High value, active"
+  },
+  {
+   "x": 162.0,
+   "y": 505.2,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 173.0,
+   "y": 188.73,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 80.0,
+   "y": 1241.48,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 43.0,
+   "y": 520.8000000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 8.0,
+   "y": 3203.26,
+   "s": "High value, active"
+  },
+  {
+   "x": 9.0,
+   "y": 7678.42,
+   "s": "High value, active"
+  },
+  {
+   "x": 6.0,
+   "y": 6930.79,
+   "s": "High value, active"
+  },
+  {
+   "x": 24.0,
+   "y": 3449.42,
+   "s": "High value, active"
+  },
+  {
+   "x": 55.0,
+   "y": 80.7,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 138.14,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 283.0,
+   "y": 177.60000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 128.0,
+   "y": 605.8000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 136.0,
+   "y": 192.07,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 61.0,
+   "y": 258.88,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 265.0,
+   "y": 193.64,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 48.0,
+   "y": 1835.08,
+   "s": "High value, active"
+  },
+  {
+   "x": 2.0,
+   "y": 604.2,
+   "s": "High value, active"
+  },
+  {
+   "x": 278.0,
+   "y": 375.69000000000005,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 43.0,
+   "y": 367.81,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 79.0,
+   "y": 1868.36,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 3.0,
+   "y": 98238.79,
+   "s": "High value, active"
+  },
+  {
+   "x": 240.0,
+   "y": 689.95,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 163.0,
+   "y": 696.07,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 3.0,
+   "y": 2093.37,
+   "s": "High value, active"
+  },
+  {
+   "x": 37.0,
+   "y": 1516.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 124.0,
+   "y": 459.4,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 171.0,
+   "y": 995.93,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 94.0,
+   "y": 771.85,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 144.0,
+   "y": 280.55,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 93.0,
+   "y": 591.76,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 192.0,
+   "y": 110.38000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 37.0,
+   "y": 476.29999999999995,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 86.0,
+   "y": 477.59000000000003,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 716.2,
+   "s": "High value, active"
+  },
+  {
+   "x": 274.0,
+   "y": 458.92,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 54.0,
+   "y": 2437.63,
+   "s": "High value, active"
+  },
+  {
+   "x": 75.0,
+   "y": 846.59,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 8.0,
+   "y": 1490.47,
+   "s": "High value, active"
+  },
+  {
+   "x": 220.0,
+   "y": 113.64,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 152.0,
+   "y": 309.52,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 115.0,
+   "y": 338.74,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 269.0,
+   "y": 440.2,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 111.0,
+   "y": 403.11,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 94.0,
+   "y": 253.35,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 236.0,
+   "y": 216.07,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 263.36,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 23.0,
+   "y": 409.99,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 73.0,
+   "y": 944.6,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 3.0,
+   "y": 127.37,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 71.0,
+   "y": 760.86,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 4.0,
+   "y": 46020.75,
+   "s": "High value, active"
+  },
+  {
+   "x": 20.0,
+   "y": 10661.09,
+   "s": "High value, active"
+  },
+  {
+   "x": 51.0,
+   "y": 582.5600000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 1129.93,
+   "s": "High value, active"
+  },
+  {
+   "x": 113.0,
+   "y": 131.7,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 125.0,
+   "y": 90.6,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 272.0,
+   "y": 157.92,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 102.0,
+   "y": 2071.77,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 3089.4100000000003,
+   "s": "High value, active"
+  },
+  {
+   "x": 232.0,
+   "y": 302.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 22.0,
+   "y": 558.29,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 8.0,
+   "y": 972.35,
+   "s": "High value, active"
+  },
+  {
+   "x": 136.0,
+   "y": 305.28000000000003,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 93.0,
+   "y": 161.38,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 227.0,
+   "y": 249.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 205.0,
+   "y": 110.98,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 86.0,
+   "y": 113.06,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 128.0,
+   "y": 179.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 176.0,
+   "y": 177.15,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 111.0,
+   "y": 306.13,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 83.0,
+   "y": 177.34,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 11.0,
+   "y": 1833.77,
+   "s": "High value, active"
+  },
+  {
+   "x": 19.0,
+   "y": 6522.29,
+   "s": "High value, active"
+  },
+  {
+   "x": 47.0,
+   "y": 1207.32,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 32.0,
+   "y": 709.71,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 50.0,
+   "y": 207.73999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 174.0,
+   "y": 211.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 276.0,
+   "y": 145.93,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 74.0,
+   "y": 1382.88,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 8.0,
+   "y": 1941.15,
+   "s": "High value, active"
+  },
+  {
+   "x": 178.0,
+   "y": 306.64,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 170.0,
+   "y": 361.54,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 108.0,
+   "y": 1114.39,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 2461.94,
+   "s": "High value, active"
+  },
+  {
+   "x": 128.0,
+   "y": 188.60999999999999,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 190.0,
+   "y": 96.8,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 125.0,
+   "y": 549.68,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 113.0,
+   "y": 127.59,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 176.0,
+   "y": 344.90000000000003,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 11246.67,
+   "s": "High value, active"
+  },
+  {
+   "x": 118.0,
+   "y": 799.7,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 59.0,
+   "y": 521.24,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 4036.34,
+   "s": "High value, active"
+  },
+  {
+   "x": 69.0,
+   "y": 665.78,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 32.0,
+   "y": 356.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 206.0,
+   "y": 175.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 419.55,
+   "s": "High value, active"
+  },
+  {
+   "x": 82.0,
+   "y": 241.74,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 136.0,
+   "y": 203.95,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 123.0,
+   "y": 313.93,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 281.0,
+   "y": 71.14,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 197.0,
+   "y": 174.9,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 53.0,
+   "y": 110.23,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 416.90000000000003,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 228.0,
+   "y": 153.78,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 33.0,
+   "y": 3083.65,
+   "s": "High value, active"
+  },
+  {
+   "x": 272.0,
+   "y": 179.1,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 11.0,
+   "y": 10619.27,
+   "s": "High value, active"
+  },
+  {
+   "x": 29.0,
+   "y": 156.75,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 584.65,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 89.0,
+   "y": 342.83,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 74.0,
+   "y": 778.88,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 19.0,
+   "y": 1116.68,
+   "s": "High value, active"
+  },
+  {
+   "x": 89.0,
+   "y": 2386.05,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 282.0,
+   "y": 326.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 79.0,
+   "y": 371.89,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 148.0,
+   "y": 167.55,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 8.0,
+   "y": 957.8600000000001,
+   "s": "High value, active"
+  },
+  {
+   "x": 5.0,
+   "y": 911.94,
+   "s": "High value, active"
+  },
+  {
+   "x": 34.0,
+   "y": 1421.46,
+   "s": "High value, active"
+  },
+  {
+   "x": 170.0,
+   "y": 775.85,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 102.0,
+   "y": 517.53,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 88.0,
+   "y": 335.3,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 13.0,
+   "y": 387.06,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 129.0,
+   "y": 75.66,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 1625.63,
+   "s": "High value, active"
+  },
+  {
+   "x": 1.0,
+   "y": 3245.66,
+   "s": "High value, active"
+  },
+  {
+   "x": 38.0,
+   "y": 4156.08,
+   "s": "High value, active"
+  },
+  {
+   "x": 223.0,
+   "y": 614.1,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 111.0,
+   "y": 152.34,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 48.0,
+   "y": 5992.129999999999,
+   "s": "High value, active"
+  },
+  {
+   "x": 169.0,
+   "y": 544.15,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 3.0,
+   "y": 967.76,
+   "s": "High value, active"
+  },
+  {
+   "x": 2.0,
+   "y": 991.13,
+   "s": "High value, active"
+  },
+  {
+   "x": 283.0,
+   "y": 79.6,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 142.0,
+   "y": 73.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 10.0,
+   "y": 1240.2,
+   "s": "High value, active"
+  },
+  {
+   "x": 16.0,
+   "y": 51.559999999999995,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 243.0,
+   "y": 332.41,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 32.0,
+   "y": 1249.89,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 128.0,
+   "y": 67.95,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 1559.66,
+   "s": "High value, active"
+  },
+  {
+   "x": 183.0,
+   "y": 334.2,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 135.0,
+   "y": 331.18,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 46.0,
+   "y": 601.85,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 102.0,
+   "y": 9.2,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 85.0,
+   "y": 935.22,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 101.0,
+   "y": 664.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 152.0,
+   "y": 390.54,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 221.0,
+   "y": 590.54,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 65.0,
+   "y": 638.94,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 149.0,
+   "y": 108.03999999999999,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 11.0,
+   "y": 1049.37,
+   "s": "High value, active"
+  },
+  {
+   "x": 1.0,
+   "y": 307.48,
+   "s": "High value, active"
+  },
+  {
+   "x": 11.0,
+   "y": 1732.45,
+   "s": "High value, active"
+  },
+  {
+   "x": 18.0,
+   "y": 1361.33,
+   "s": "High value, active"
+  },
+  {
+   "x": 10.0,
+   "y": 2507.12,
+   "s": "High value, active"
+  },
+  {
+   "x": 30.0,
+   "y": 7593.65,
+   "s": "High value, active"
+  },
+  {
+   "x": 19.0,
+   "y": 167.61,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 80.0,
+   "y": 629.45,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 19.0,
+   "y": 10869.28,
+   "s": "High value, active"
+  },
+  {
+   "x": 50.0,
+   "y": 149.48,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 197.0,
+   "y": 74.60000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 113.0,
+   "y": 585.12,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 51.0,
+   "y": 1159.25,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 6911.84,
+   "s": "High value, active"
+  },
+  {
+   "x": 120.0,
+   "y": 2037.82,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 1600.0,
+   "s": "High value, active"
+  },
+  {
+   "x": 153.0,
+   "y": 542.71,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 82.0,
+   "y": 880.85,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 123.0,
+   "y": 204.02,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 18.0,
+   "y": 5121.79,
+   "s": "High value, active"
+  },
+  {
+   "x": 130.0,
+   "y": 446.62,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 73.0,
+   "y": 5719.82,
+   "s": "High value, active"
+  },
+  {
+   "x": 162.0,
+   "y": 307.14,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 1.0,
+   "y": 12635.77,
+   "s": "High value, active"
+  },
+  {
+   "x": 146.0,
+   "y": 338.95,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 83.0,
+   "y": 244.36,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 282.0,
+   "y": 2002.4,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 153.0,
+   "y": 112.55000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 283.0,
+   "y": 101.55,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 178.0,
+   "y": 309.46,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 1104.25,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 3.0,
+   "y": 9358.91,
+   "s": "High value, active"
+  },
+  {
+   "x": 54.0,
+   "y": 8121.13,
+   "s": "High value, active"
+  },
+  {
+   "x": 101.0,
+   "y": 765.65,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 190.0,
+   "y": 164.4,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 111.0,
+   "y": 485.96999999999997,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 164.0,
+   "y": 760.18,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 239.0,
+   "y": 326.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 3.0,
+   "y": 76104.45,
+   "s": "High value, active"
+  },
+  {
+   "x": 51.0,
+   "y": 252.45,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 18.0,
+   "y": 3717.35,
+   "s": "High value, active"
+  },
+  {
+   "x": 18.0,
+   "y": 98.88,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 13.0,
+   "y": 794.8,
+   "s": "High value, active"
+  },
+  {
+   "x": 87.0,
+   "y": 683.17,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 79.0,
+   "y": 344.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 100.0,
+   "y": 2708.59,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 135.0,
+   "y": 463.79,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 92.0,
+   "y": 6207.08,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 206.0,
+   "y": 731.66,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 111.0,
+   "y": 874.88,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 47.0,
+   "y": 449.73,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 54.0,
+   "y": 11180.25,
+   "s": "High value, active"
+  },
+  {
+   "x": 52.0,
+   "y": 102.41,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 54.0,
+   "y": 1484.06,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 46.0,
+   "y": 450.05,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 26.0,
+   "y": 2791.59,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 56.25,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 109.0,
+   "y": 1464.8500000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 96.0,
+   "y": 392.99,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 156.0,
+   "y": 1038.44,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 701.2,
+   "s": "High value, active"
+  },
+  {
+   "x": 71.0,
+   "y": 345.29999999999995,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 82.0,
+   "y": 244.69,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 275.0,
+   "y": 383.07,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 86.0,
+   "y": 1027.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 137.0,
+   "y": 413.46,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 18.0,
+   "y": 422.47,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 59.0,
+   "y": 574.7,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 13.0,
+   "y": 3392.5899999999997,
+   "s": "High value, active"
+  },
+  {
+   "x": 23.0,
+   "y": 10795.48,
+   "s": "High value, active"
+  },
+  {
+   "x": 92.0,
+   "y": 72.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 129.0,
+   "y": 534.24,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 57.0,
+   "y": 378.3,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 36.0,
+   "y": 629.32,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 66.0,
+   "y": 1080.23,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 170.0,
+   "y": 602.63,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 88.0,
+   "y": 711.79,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 184.0,
+   "y": 101.34,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 51.0,
+   "y": 865.88,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 9504.08,
+   "s": "High value, active"
+  },
+  {
+   "x": 5.0,
+   "y": 3029.7400000000002,
+   "s": "High value, active"
+  },
+  {
+   "x": 176.0,
+   "y": 752.4300000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 19.0,
+   "y": 2467.54,
+   "s": "High value, active"
+  },
+  {
+   "x": 114.0,
+   "y": 557.45,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 38.0,
+   "y": 594.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 67.0,
+   "y": 1156.4,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 178.0,
+   "y": 152.76,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 78.0,
+   "y": 1845.37,
+   "s": "High value, active"
+  },
+  {
+   "x": 68.0,
+   "y": 289.96000000000004,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 115.0,
+   "y": 251.01999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 36.0,
+   "y": 1411.61,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 222.0,
+   "y": 382.5,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 8.0,
+   "y": 4744.13,
+   "s": "High value, active"
+  },
+  {
+   "x": 2.0,
+   "y": 368.36,
+   "s": "High value, active"
+  },
+  {
+   "x": 46.0,
+   "y": 4897.02,
+   "s": "High value, active"
+  },
+  {
+   "x": 142.0,
+   "y": 257.89,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 1.0,
+   "y": 18384.65,
+   "s": "High value, active"
+  },
+  {
+   "x": 277.0,
+   "y": 373.49,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 241.0,
+   "y": 1289.5,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 83.0,
+   "y": 139.77,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 24.0,
+   "y": 653.38,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 52.0,
+   "y": 207.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 26.0,
+   "y": 4027.1,
+   "s": "High value, active"
+  },
+  {
+   "x": 221.0,
+   "y": 117.85,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 190.0,
+   "y": 222.99,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 214.0,
+   "y": 133.35000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 47.0,
+   "y": 101.15,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 97.0,
+   "y": 110.55000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 52.0,
+   "y": 380.33,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 29.0,
+   "y": 4732.07,
+   "s": "High value, active"
+  },
+  {
+   "x": 53.0,
+   "y": 957.48,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 877.4399999999999,
+   "s": "High value, active"
+  },
+  {
+   "x": 123.0,
+   "y": 1098.5,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 271.0,
+   "y": 250.04,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 87.0,
+   "y": 393.33,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 114.0,
+   "y": 396.86,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 78.0,
+   "y": 229.26,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 97.0,
+   "y": 52.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 155.0,
+   "y": 310.05,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 41.0,
+   "y": 1999.26,
+   "s": "High value, active"
+  },
+  {
+   "x": 9.0,
+   "y": 137.38,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 229.0,
+   "y": 91.80000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 100.0,
+   "y": 2478.79,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 122.0,
+   "y": 348.15000000000003,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 120.0,
+   "y": 1692.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 75.0,
+   "y": 356.97999999999996,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 37.0,
+   "y": 2077.36,
+   "s": "High value, active"
+  },
+  {
+   "x": 24.0,
+   "y": 1475.43,
+   "s": "High value, active"
+  },
+  {
+   "x": 163.0,
+   "y": 58.49,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 57.0,
+   "y": 180.42000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 230.0,
+   "y": 265.85,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 95.0,
+   "y": 307.72,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 109.0,
+   "y": 1984.5900000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 93.0,
+   "y": 1450.66,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 155.0,
+   "y": 239.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 186.0,
+   "y": 108.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 99.0,
+   "y": 349.1,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 10.0,
+   "y": 4805.68,
+   "s": "High value, active"
+  },
+  {
+   "x": 80.0,
+   "y": 237.61,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 18.0,
+   "y": 122.14,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 1213.73,
+   "s": "High value, active"
+  },
+  {
+   "x": 81.0,
+   "y": 69.89999999999999,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 10.0,
+   "y": 1406.59,
+   "s": "High value, active"
+  },
+  {
+   "x": 89.0,
+   "y": 58.08,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 25.0,
+   "y": 127.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 282.0,
+   "y": 189.3,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 22.0,
+   "y": 2738.75,
+   "s": "High value, active"
+  },
+  {
+   "x": 207.0,
+   "y": 89.2,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 65.0,
+   "y": 855.0600000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 52.0,
+   "y": 575.06,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 142.0,
+   "y": 464.59000000000003,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 89.0,
+   "y": 697.73,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 276.0,
+   "y": 129.75,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 177.0,
+   "y": 142.4,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 48.0,
+   "y": 899.55,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 43.0,
+   "y": 1390.5,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 221.0,
+   "y": 319.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 45.0,
+   "y": 255.91,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 242.0,
+   "y": 110.95,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 15.0,
+   "y": 1862.22,
+   "s": "High value, active"
+  },
+  {
+   "x": 233.0,
+   "y": 167.39000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 113.0,
+   "y": 1550.7,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 107.0,
+   "y": 707.69,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 67.0,
+   "y": 734.13,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 183.0,
+   "y": 1145.6,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 93.0,
+   "y": 519.75,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 281.0,
+   "y": 110.35000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 657.07,
+   "s": "High value, active"
+  },
+  {
+   "x": 183.0,
+   "y": 108.21000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 86.0,
+   "y": 359.08000000000004,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 24.0,
+   "y": 488.56,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 44.0,
+   "y": 331.14,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 276.0,
+   "y": 403.25,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 179.0,
+   "y": 422.53999999999996,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 1083.83,
+   "s": "High value, active"
+  },
+  {
+   "x": 111.0,
+   "y": 903.01,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 164.0,
+   "y": 56.4,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 185.0,
+   "y": 1639.75,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 39.0,
+   "y": 4050.42,
+   "s": "High value, active"
+  },
+  {
+   "x": 33.0,
+   "y": 862.56,
+   "s": "High value, active"
+  },
+  {
+   "x": 18.0,
+   "y": 2298.97,
+   "s": "High value, active"
+  },
+  {
+   "x": 275.0,
+   "y": 263.17,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 164.0,
+   "y": 271.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 94.0,
+   "y": 298.48,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 78.0,
+   "y": 964.3,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 95.0,
+   "y": 861.96,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 46.0,
+   "y": 712.24,
+   "s": "High value, active"
+  },
+  {
+   "x": 211.0,
+   "y": 502.20000000000005,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 50.0,
+   "y": 909.87,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 18.0,
+   "y": 1322.52,
+   "s": "High value, active"
+  },
+  {
+   "x": 221.0,
+   "y": 325.75,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 2925.45,
+   "s": "High value, active"
+  },
+  {
+   "x": 86.0,
+   "y": 3290.78,
+   "s": "High value, active"
+  },
+  {
+   "x": 1.0,
+   "y": 6414.32,
+   "s": "High value, active"
+  },
+  {
+   "x": 157.0,
+   "y": 454.12,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 1314.45,
+   "s": "High value, active"
+  },
+  {
+   "x": 15.0,
+   "y": 419.56,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 41.0,
+   "y": 1867.19,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 278.0,
+   "y": 123.24,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 156.0,
+   "y": 119.35,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 18.0,
+   "y": 14153.5,
+   "s": "High value, active"
+  },
+  {
+   "x": 8.0,
+   "y": 10083.47,
+   "s": "High value, active"
+  },
+  {
+   "x": 118.0,
+   "y": 248.05,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 128.0,
+   "y": 1423.26,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 1.0,
+   "y": 1247.3600000000001,
+   "s": "High value, active"
+  },
+  {
+   "x": 46.0,
+   "y": 268.7,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 15.0,
+   "y": 449.52,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 15.0,
+   "y": 735.67,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 86.0,
+   "y": 448.56000000000006,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 75.0,
+   "y": 243.76,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 95.0,
+   "y": 235.56,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 106.0,
+   "y": 791.07,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 282.0,
+   "y": 106.2,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 95.0,
+   "y": 154.82999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 235.0,
+   "y": 107.45,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 24.0,
+   "y": 1339.45,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 8.0,
+   "y": 1767.07,
+   "s": "High value, active"
+  },
+  {
+   "x": 11.0,
+   "y": 3495.53,
+   "s": "High value, active"
+  },
+  {
+   "x": 225.0,
+   "y": 182.45000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 1634.77,
+   "s": "High value, active"
+  },
+  {
+   "x": 206.0,
+   "y": 363.7,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 8.0,
+   "y": 15619.6,
+   "s": "High value, active"
+  },
+  {
+   "x": 264.0,
+   "y": 1174.03,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 268.0,
+   "y": 322.08,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 146.0,
+   "y": 302.85,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 51.0,
+   "y": 2809.98,
+   "s": "High value, active"
+  },
+  {
+   "x": 37.0,
+   "y": 3276.4000000000005,
+   "s": "High value, active"
+  },
+  {
+   "x": 23.0,
+   "y": 2091.14,
+   "s": "High value, active"
+  },
+  {
+   "x": 71.0,
+   "y": 225.26,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 113.0,
+   "y": 59.8,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 39.0,
+   "y": 291.40000000000003,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 19.0,
+   "y": 303.8,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 4251.03,
+   "s": "High value, active"
+  },
+  {
+   "x": 9.0,
+   "y": 1550.94,
+   "s": "High value, active"
+  },
+  {
+   "x": 5.0,
+   "y": 1901.52,
+   "s": "High value, active"
+  },
+  {
+   "x": 22.0,
+   "y": 659.73,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 109.0,
+   "y": 953.0600000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 111.0,
+   "y": 1528.37,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 37.0,
+   "y": 1009.6,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 46.0,
+   "y": 470.69,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 195.0,
+   "y": 65.13,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 283.71,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 83.0,
+   "y": 134.1,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 151.0,
+   "y": 552.8,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 95.0,
+   "y": 308.7,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 151.0,
+   "y": 313.8,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 205.0,
+   "y": 100.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 167.0,
+   "y": 193.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 1188.21,
+   "s": "High value, active"
+  },
+  {
+   "x": 185.0,
+   "y": 380.5,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 59.0,
+   "y": 1286.95,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 261.0,
+   "y": 134.55,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 24.0,
+   "y": 1013.75,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 38.0,
+   "y": 208.65,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 218.0,
+   "y": 664.54,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 121.0,
+   "y": 635.66,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 4.0,
+   "y": 2124.15,
+   "s": "High value, active"
+  },
+  {
+   "x": 10.0,
+   "y": 1810.77,
+   "s": "High value, active"
+  },
+  {
+   "x": 64.0,
+   "y": 225.95,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 58.0,
+   "y": 595.47,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 13.0,
+   "y": 932.1400000000001,
+   "s": "High value, active"
+  },
+  {
+   "x": 67.0,
+   "y": 3578.54,
+   "s": "High value, active"
+  },
+  {
+   "x": 171.0,
+   "y": 1182.0800000000002,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 13.0,
+   "y": 1494.1200000000001,
+   "s": "High value, active"
+  },
+  {
+   "x": 142.0,
+   "y": 876.42,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 155.0,
+   "y": 1581.53,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 200.0,
+   "y": 53.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 261.0,
+   "y": 172.25,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 95.0,
+   "y": 683.46,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 163.0,
+   "y": 61.10000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 67.0,
+   "y": 2802.86,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 157.0,
+   "y": 632.4,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 102.0,
+   "y": 284.46000000000004,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 2.0,
+   "y": 689.83,
+   "s": "High value, active"
+  },
+  {
+   "x": 50.0,
+   "y": 1316.63,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 60.0,
+   "y": 119.19,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 2949.12,
+   "s": "High value, active"
+  },
+  {
+   "x": 18.0,
+   "y": 4102.78,
+   "s": "High value, active"
+  },
+  {
+   "x": 82.0,
+   "y": 113.12,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 122.0,
+   "y": 842.9200000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 32.0,
+   "y": 1688.29,
+   "s": "High value, active"
+  },
+  {
+   "x": 122.0,
+   "y": 1629.03,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 26.0,
+   "y": 5009.07,
+   "s": "High value, active"
+  },
+  {
+   "x": 221.0,
+   "y": 35.8,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 163.0,
+   "y": 257.6,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 31.0,
+   "y": 1119.88,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 44.0,
+   "y": 196.88,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 51.0,
+   "y": 755.03,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 170.0,
+   "y": 251.21,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 51.0,
+   "y": 301.03,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 67.0,
+   "y": 1037.27,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 706.57,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 276.0,
+   "y": 1661.06,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 92.0,
+   "y": 310.4,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 209.0,
+   "y": 108.26,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 41.0,
+   "y": 675.6,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 86.0,
+   "y": 305.2,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 79.0,
+   "y": 165.9,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 99.0,
+   "y": 232.21,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 54.0,
+   "y": 741.72,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 57.0,
+   "y": 1220.38,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 83.0,
+   "y": 934.51,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 190.0,
+   "y": 387.31,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 216.0,
+   "y": 3651.27,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 192.0,
+   "y": 866.39,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 176.0,
+   "y": 141.41,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 44.0,
+   "y": 244.8,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 23.0,
+   "y": 365.7,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 158.0,
+   "y": 297.94,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 33.0,
+   "y": 2257.6800000000003,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 72.0,
+   "y": 2744.48,
+   "s": "High value, active"
+  },
+  {
+   "x": 41.0,
+   "y": 156.57999999999998,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 13.0,
+   "y": 1852.67,
+   "s": "High value, active"
+  },
+  {
+   "x": 23.0,
+   "y": 1048.45,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 164.0,
+   "y": 836.79,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 216.0,
+   "y": 131.9,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 4.0,
+   "y": 2290.81,
+   "s": "High value, active"
+  },
+  {
+   "x": 8.0,
+   "y": 3984.06,
+   "s": "High value, active"
+  },
+  {
+   "x": 4.0,
+   "y": 303.93,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 30.0,
+   "y": 6596.38,
+   "s": "High value, active"
+  },
+  {
+   "x": 36.0,
+   "y": 533.39,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 61.0,
+   "y": 308.75,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 5.0,
+   "y": 25422.56,
+   "s": "High value, active"
+  },
+  {
+   "x": 283.0,
+   "y": 160.97,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 81.0,
+   "y": 73.78,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 268.0,
+   "y": 540.45,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 187.0,
+   "y": 159.3,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 151.0,
+   "y": 1259.24,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 2829.91,
+   "s": "High value, active"
+  },
+  {
+   "x": 202.0,
+   "y": 505.82,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 121.0,
+   "y": 9341.26,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 283.0,
+   "y": 255.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 90.0,
+   "y": 321.43,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 109.0,
+   "y": 1728.8400000000001,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 61.0,
+   "y": 47.550000000000004,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 261.0,
+   "y": 354.64,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 387.52,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 213.0,
+   "y": 360.81,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 228.0,
+   "y": 636.94,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 121.0,
+   "y": 455.18,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 96.0,
+   "y": 124.57,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 62.0,
+   "y": 989.45,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 43.0,
+   "y": 33883.5,
+   "s": "High value, active"
+  },
+  {
+   "x": 240.0,
+   "y": 155.17,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 222.0,
+   "y": 131.7,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 83.0,
+   "y": 404.3,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 162.0,
+   "y": 773.25,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 102.0,
+   "y": 294.92,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 51.0,
+   "y": 873.1999999999999,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 162.0,
+   "y": 291.34000000000003,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 100.0,
+   "y": 119.93,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 148.0,
+   "y": 146.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 151.0,
+   "y": 135.19,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 107.0,
+   "y": 588.85,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 58.0,
+   "y": 304.09999999999997,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 193.0,
+   "y": 498.15000000000003,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 283.0,
+   "y": 265.1,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 898.84,
+   "s": "High value, active"
+  },
+  {
+   "x": 62.0,
+   "y": 1659.39,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 40.0,
+   "y": 981.18,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 149.0,
+   "y": 1266.23,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 130.0,
+   "y": 134.8,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 80.0,
+   "y": 1607.04,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 170.0,
+   "y": 227.32,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 108.0,
+   "y": 339.59,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 46.0,
+   "y": 1439.44,
+   "s": "High value, active"
+  },
+  {
+   "x": 187.0,
+   "y": 328.8,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 13.0,
+   "y": 1622.34,
+   "s": "High value, active"
+  },
+  {
+   "x": 40.0,
+   "y": 178.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 59.0,
+   "y": 449.66999999999996,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 33.0,
+   "y": 530.55,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 163.0,
+   "y": 226.85,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 152.0,
+   "y": 213.95,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 283.0,
+   "y": 390.79,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 108.0,
+   "y": 1143.27,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 58.0,
+   "y": 4783.8,
+   "s": "High value, active"
+  },
+  {
+   "x": 44.0,
+   "y": 754.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 64.0,
+   "y": 260.26,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 228.0,
+   "y": 106.83000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 89.0,
+   "y": 1639.82,
+   "s": "High value, active"
+  },
+  {
+   "x": 283.0,
+   "y": 115.65,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 65.0,
+   "y": 63.75,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 86.0,
+   "y": 21.95,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 150.35,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 282.0,
+   "y": 298.52,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 4.0,
+   "y": 1565.2,
+   "s": "High value, active"
+  },
+  {
+   "x": 264.0,
+   "y": 214.26,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 186.0,
+   "y": 197.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 122.0,
+   "y": 208.56,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 67.0,
+   "y": 447.64000000000004,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 274.0,
+   "y": 106.4,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 75.0,
+   "y": 387.68,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 93.0,
+   "y": 432.06,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 17.0,
+   "y": 213.55,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 53.0,
+   "y": 90.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 200.0,
+   "y": 787.15,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 11.0,
+   "y": 85.92,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 152.0,
+   "y": 406.08000000000004,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 16.0,
+   "y": 968.0,
+   "s": "High value, active"
+  },
+  {
+   "x": 55.0,
+   "y": 417.38,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 20.0,
+   "y": 52.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 1.0,
+   "y": 441.91,
+   "s": "High value, active"
+  },
+  {
+   "x": 179.0,
+   "y": 76.32000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 10.0,
+   "y": 1807.51,
+   "s": "High value, active"
+  },
+  {
+   "x": 171.0,
+   "y": 285.58,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 276.0,
+   "y": 155.55,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 1.0,
+   "y": 576.4,
+   "s": "High value, active"
+  },
+  {
+   "x": 29.0,
+   "y": 389.6,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 146.0,
+   "y": 232.48000000000002,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 29.0,
+   "y": 605.65,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 83.0,
+   "y": 137.9,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 36.0,
+   "y": 4469.53,
+   "s": "High value, active"
+  },
+  {
+   "x": 16.0,
+   "y": 3065.7,
+   "s": "High value, active"
+  },
+  {
+   "x": 11.0,
+   "y": 2394.98,
+   "s": "High value, active"
+  },
+  {
+   "x": 228.0,
+   "y": 585.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 109.0,
+   "y": 327.97,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 164.0,
+   "y": 229.33,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 95.0,
+   "y": 318.7,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 6.0,
+   "y": 224.67,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 39.0,
+   "y": 12360.24,
+   "s": "High value, active"
+  },
+  {
+   "x": 214.0,
+   "y": 79.2,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 232.0,
+   "y": 23.8,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 26.0,
+   "y": 508.4599999999999,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 191.0,
+   "y": 225.9,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 58.0,
+   "y": 1283.88,
+   "s": "High value, active"
+  },
+  {
+   "x": 191.0,
+   "y": 337.44,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 184.0,
+   "y": 660.0,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 137.0,
+   "y": 205.7,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 9.0,
+   "y": 3070.42,
+   "s": "High value, active"
+  },
+  {
+   "x": 5.0,
+   "y": 2995.87,
+   "s": "High value, active"
+  },
+  {
+   "x": 51.0,
+   "y": 2739.8,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 86.0,
+   "y": 189.5,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 204.0,
+   "y": 201.12,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 212.0,
+   "y": 302.7,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 53.0,
+   "y": 4299.56,
+   "s": "High value, active"
+  },
+  {
+   "x": 93.0,
+   "y": 251.21,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 109.0,
+   "y": 1396.99,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 92.0,
+   "y": 1558.68,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 10.0,
+   "y": 455.59000000000003,
+   "s": "High value, active"
+  },
+  {
+   "x": 19.0,
+   "y": 1220.8600000000001,
+   "s": "High value, active"
+  },
+  {
+   "x": 17.0,
+   "y": 440.48,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 38.0,
+   "y": 1408.7,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 233.0,
+   "y": 97.7,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 270.0,
+   "y": 102.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 110.0,
+   "y": 1010.34,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 79.0,
+   "y": 3703.29,
+   "s": "High value, active"
+  },
+  {
+   "x": 68.0,
+   "y": 70.80000000000001,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 201.0,
+   "y": 211.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 92.0,
+   "y": 457.40000000000003,
+   "s": "Mid value, lapsed"
+  },
+  {
+   "x": 200.0,
+   "y": 165.0,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 279.0,
+   "y": 128.55,
+   "s": "Low value, lapsed"
+  },
+  {
+   "x": 275.0,
+   "y": 258.28000000000003,
+   "s": "Low value, lapsed"
+  }
+ ],
+ "features": [
+  "Recency",
+  "Frequency",
+  "Monetary",
+  "AvgOrderValue"
+ ]
+}

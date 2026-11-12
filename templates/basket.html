@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block title %}Market basket{% endblock %}
+{% block content %}
+<section class="page-head">
+  <div>
+    <div class="eyebrow">Technique 2 · association rules (FP-Growth)</div>
+    <h1>What gets bought together</h1>
+    <p>{{ "{:,}".format(basket.invoices) }} orders with two or more of the {{ basket.products_considered }} most-ordered products. Minimum support {{ "{:.0%}".format(basket.min_support) }} (at least {{ (basket.min_support * basket.invoices)|round|int }} orders), minimum lift {{ basket.min_lift }}: {{ "{:,}".format(basket.n_itemsets) }} itemsets, {{ "{:,}".format(basket.n_rules) }} rules, {{ basket.n_pairs }} distinct product pairs.</p>
+  </div>
+</section>
+
+<section class="card">
+  <div class="card-head"><h2>Strongest product pairs</h2><p>Each pair shown once, in its higher-confidence direction</p></div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>If a basket has</th><th>it often also has</th><th class="num">Orders</th><th class="num">Confidence</th><th class="num">Lift</th></tr></thead>
+    <tbody>
+    {% for r in basket.top_pairs[:12] %}
+      <tr><td>{{ r.antecedents[0] }}</td><td>{{ r.consequents[0] }}</td><td class="num">{{ "{:,}".format(r.count) }}</td>
+      <td class="num">{{ "{:.0%}".format(r.confidence) }}</td><td class="num">{{ r.lift }}×</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  <p class="note" style="margin-top:12px">Lift 30× means the pair appears together 30 times more often than if the two products were bought independently. Most top pairs are colour or style variants of one design, which suggests selling them as sets.</p>
+</section>
+
+<section class="card" aria-labelledby="explore-h">
+  <div class="card-head"><h2 id="explore-h">Rule explorer</h2><p id="count" aria-live="polite"></p></div>
+  <div class="filters" role="search">
+    <div class="field"><label for="q">Product name or code</label><input id="q" placeholder="e.g. lunch bag, 85099B"></div>
+    <div class="field"><label for="minlift">Minimum lift</label><select id="minlift"><option>1.5</option><option>3</option><option selected>5</option><option>10</option><option>20</option></select></div>
+    <div class="field"><label for="minconf">Minimum confidence</label><select id="minconf"><option value="0">Any</option><option value="0.3" selected>30%</option><option value="0.5">50%</option><option value="0.7">70%</option></select></div>
+    <div class="field"><label for="sort">Sort by</label><select id="sort"><option value="lift">Lift</option><option value="confidence">Confidence</option><option value="count">Orders</option></select></div>
+  </div>
+  <div class="table-wrap" style="margin-top:12px;max-height:520px">
+    <table>
+      <thead><tr><th>If a basket has</th><th>then</th><th class="num">Orders</th><th class="num">Support</th><th class="num">Confidence</th><th class="num">Lift</th></tr></thead>
+      <tbody id="rules"></tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script>
+const RULES = {{ basket.rules|tojson }};
+const el = id => document.getElementById(id);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+function render() {
+  const q = el('q').value.trim().toLowerCase();
+  const minLift = +el('minlift').value, minConf = +el('minconf').value, key = el('sort').value;
+  const rows = RULES.filter(r => r.lift >= minLift && r.confidence >= minConf &&
+    (!q || r.antecedents.concat(r.consequents).some(p => p.toLowerCase().includes(q))))
+    .sort((a, b) => b[key] - a[key]);
+  el('count').textContent = `${rows.length.toLocaleString('en-GB')} match, from the ${RULES.length.toLocaleString('en-GB')} highest-lift rules{% if basket.n_rules > basket.rules|length %} (of {{ '{:,}'.format(basket.n_rules) }}){% endif %}`;
+  el('rules').innerHTML = rows.length ? rows.slice(0, 200).map(r => `<tr><td>${r.antecedents.map(esc).join(' + ')}</td><td>${r.consequents.map(esc).join(' + ')}</td>
+    <td class="num">${r.count.toLocaleString('en-GB')}</td><td class="num">${(r.support * 100).toFixed(1)}%</td>
+    <td class="num">${Math.round(r.confidence * 100)}%</td><td class="num">${r.lift}×</td></tr>`).join('')
+    : `<tr><td colspan="6" class="empty">No rules match. Try a lower minimum lift or confidence, or a shorter search such as "bag".</td></tr>`;
+}
+['q', 'minlift', 'minconf', 'sort'].forEach(id => el(id).addEventListener('input', render));
+render();
+</script>
+{% endblock %}

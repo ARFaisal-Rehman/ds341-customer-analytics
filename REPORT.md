@@ -1,3 +1,5 @@
+> **Note (November 2026):** this is the course report as submitted. The analysis was later revised (log-scaled segmentation with k chosen by silhouette, FP-Growth over 300 products, model selection by cross-validation), so some numbers below differ from the current results. See the [README](README.md) for the revised figures.
+
 # Customer Churn Prediction Project Report
 
 ## 1. Methodology

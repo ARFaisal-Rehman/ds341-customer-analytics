@@ -1,8 +1,7 @@
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-flask
-xgboost
-mlxtend
+flask>=3.0
+pandas>=2.2,<2.4
+numpy>=1.26
+scikit-learn>=1.4
+xgboost>=2.0
+mlxtend>=0.23
+pytest>=8.0

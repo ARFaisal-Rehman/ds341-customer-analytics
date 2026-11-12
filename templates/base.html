@@ -1,73 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Customer Churn Analytics{% endblock %}</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/static/css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- Animate.css for easy animations -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{% endblock %} · DS-341 Customer Analytics</title>
+  <meta name="description" content="Customer segmentation, market-basket analysis and a churn baseline on UCI Online Retail (DS-341 Data Mining, GIKI).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600&family=Fira+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+  <script>try { var t = localStorage.getItem('ds341-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js" defer></script>
 </head>
 <body>
-    <div class="d-flex" id="wrapper">
-        <!-- Sidebar -->
-        <div class="bg-white border-end" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light">
-                <i class="fas fa-chart-line me-2 text-primary"></i>Analytics ✌️
-            </div>
-            <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action list-group-item-light p-3 {% if request.path == '/' %}active{% endif %}" href="/">
-                    <i class="fas fa-home me-2"></i>Overview
-                </a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3 {% if request.path == '/models' %}active{% endif %}" href="/models">
-                    <i class="fas fa-brain me-2"></i>Models
-                </a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3 {% if request.path == '/segments' %}active{% endif %}" href="/segments">
-                    <i class="fas fa-users me-2"></i>Segments
-                </a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3 {% if request.path == '/recommendations' %}active{% endif %}" href="/recommendations">
-                    <i class="fas fa-lightbulb me-2"></i>Strategies
-                </a>
-            </div>
-        </div>
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom sticky-top">
-                <div class="container-fluid">
-                    <button class="btn btn-primary" id="sidebarToggle"><i class="fas fa-bars"></i></button>
-                    
-                    <div class="ms-auto d-flex align-items-center">
-                        <span class="text-muted me-3">Data updated: Today</span>
-                        <div class="dropdown">
-                            <button class="btn btn-light dropdown-toggle" type="button" id="userDropdown" data-bs-toggle="dropdown">
-                                <i class="fas fa-user-circle fa-lg"></i>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a class="dropdown-item" href="#">Profile</a></li>
-                                <li><a class="dropdown-item" href="#">Settings</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Logout</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-
-            <div class="container-fluid p-4">
-                <div class="fade-in-up">
-                    {% block content %}{% endblock %}
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/static/js/script.js"></script>
-    {% block scripts %}{% endblock %}
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="{{ url_for('overview') }}" aria-label="Customer Analytics home">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><rect x="3" y="12" width="4" height="9" rx="1" fill="currentColor"/><rect x="10" y="7" width="4" height="14" rx="1" fill="currentColor" opacity=".7"/><rect x="17" y="3" width="4" height="18" rx="1" fill="currentColor" opacity=".45"/></svg>
+      <span>Customer Analytics</span>
+    </a>
+    <nav aria-label="Main">
+      {% set endpoint = request.endpoint %}
+      {% for ep, label in [('overview', 'Overview'), ('segments', 'Segments'), ('basket', 'Basket'), ('churn', 'Churn'), ('recommendations', 'Actions')] %}
+      <a href="{{ url_for(ep) }}" {% if endpoint == ep %}aria-current="page"{% endif %}>{{ label }}</a>
+      {% endfor %}
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode" onclick="toggleTheme()">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+    </button>
+  </header>
+  <main id="main" class="page">{% block content %}{% endblock %}</main>
+  <footer class="footer">
+    <span>DS-341 Data Mining · GIKI</span>
+    <span>UCI Online Retail (Dec 2010 – Dec 2011), CC BY 4.0</span>
+    <a href="https://github.com/ARFaisal-Rehman/ds341-customer-analytics">Source on GitHub</a>
+  </footer>
+  <script>
+    function toggleTheme() {
+      var r = document.documentElement;
+      var dark = r.dataset.theme ? r.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      r.dataset.theme = dark ? 'light' : 'dark';
+      try { localStorage.setItem('ds341-theme', r.dataset.theme); } catch (e) {}
+      document.dispatchEvent(new Event('themechange'));
+    }
+    function cssVar(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+    var GBP = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP', maximumFractionDigits: 0 });
+    function chartDefaults() {
+      Chart.defaults.color = cssVar('--muted'); Chart.defaults.borderColor = cssVar('--grid');
+      Chart.defaults.font.family = "'Fira Sans', system-ui, sans-serif";
+    }
+    var SEG_COLORS = ['--primary', '--accent', '--high', '--low', '--medium'];
+  </script>
+  {% block scripts %}{% endblock %}
 </body>
 </html>

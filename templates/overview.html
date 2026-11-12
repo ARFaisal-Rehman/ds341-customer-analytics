@@ -1,106 +1,73 @@
-{% extends "base.html" %}
-
-{% block title %}Overview - Customer Churn Analytics{% endblock %}
-
+{% extends 'base.html' %}
+{% block title %}Overview{% endblock %}
+{% set c = overview.cleaning %}
 {% block content %}
-<div class="d-flex justify-content-between align-items-center mb-4">
-    <h2 class="animate__animated animate__fadeInLeft">Dashboard Overview</h2>
-    <button class="btn btn-outline-primary btn-sm animate__animated animate__fadeInRight" onclick="location.reload()">
-        <i class="fas fa-sync-alt me-1"></i> Refresh Data
-    </button>
-</div>
+<section class="page-head">
+  <div>
+    <div class="eyebrow">DS-341 Data Mining · course project</div>
+    <h1>Who buys, what they buy together, and who stops</h1>
+    <p>Three data-mining techniques on one year of a UK online gift retailer's transactions ({{ overview.period[0] }} to {{ overview.period[1] }}): customer segmentation, market-basket analysis, and a churn baseline.</p>
+  </div>
+</section>
 
-<div class="row g-4 mb-4">
-    <div class="col-md-4">
-        <div class="card stat-card p-3 shadow-sm border-0 h-100 animate__animated animate__fadeInUp" style="animation-delay: 0.1s;">
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h6 class="text-muted text-uppercase mb-0">Total Customers</h6>
-                    <div class="icon-shape bg-light text-primary rounded-circle p-2">
-                        <i class="fas fa-users"></i>
-                    </div>
-                </div>
-                <h3 id="total-customers" class="display-6 fw-bold mb-0">Loading...</h3>
-                <small class="text-muted">Active database records</small>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card stat-card p-3 shadow-sm border-0 h-100 animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h6 class="text-muted text-uppercase mb-0">Churn Rate</h6>
-                    <div class="icon-shape bg-light text-danger rounded-circle p-2">
-                        <i class="fas fa-user-minus"></i>
-                    </div>
-                </div>
-                <h3 id="churn-rate" class="display-6 fw-bold mb-0">Loading...</h3>
-                <small class="text-danger"><i class="fas fa-arrow-up"></i> High Risk</small>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card stat-card p-3 shadow-sm border-0 h-100 animate__animated animate__fadeInUp" style="animation-delay: 0.3s;">
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h6 class="text-muted text-uppercase mb-0">Model Accuracy</h6>
-                    <div class="icon-shape bg-light text-success rounded-circle p-2">
-                        <i class="fas fa-bullseye"></i>
-                    </div>
-                </div>
-                <h3 id="top-accuracy" class="display-6 fw-bold mb-0">--%</h3>
-                <small class="text-success">Best Model Performance</small>
-            </div>
-        </div>
-    </div>
-</div>
+<section class="grid kpis" aria-label="Key figures">
+  <div class="card kpi"><div class="label">Customers</div><div class="value">{{ "{:,}".format(c.customers) }}</div><div class="sub">with at least one purchase</div></div>
+  <div class="card kpi"><div class="label">Orders</div><div class="value">{{ "{:,}".format(c.invoices) }}</div><div class="sub">{{ "{:,}".format(c.products) }} distinct products</div></div>
+  <div class="card kpi"><div class="label">Revenue</div><div class="value">£{{ "%.2f"|format(overview.revenue / 1000000) }}M</div><div class="sub">purchases only, after cleaning</div></div>
+  <div class="card kpi"><div class="label">Segments found</div><div class="value">{{ segments.k }}</div><div class="sub">top segment holds {{ "{:.0%}".format(segments.segments[0].share_revenue) }} of revenue</div></div>
+</section>
 
-<div class="row g-4">
-    <div class="col-lg-8">
-        <div class="card shadow-sm border-0 animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
-            <div class="card-header bg-transparent border-0 py-3">
-                <h5 class="mb-0">Churn Distribution</h5>
-            </div>
-            <div class="card-body">
-                <div class="chart-container" style="position: relative; height:300px;">
-                    <canvas id="churnChart"></canvas>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-4">
-        <div class="card shadow-sm border-0 h-100 animate__animated animate__fadeInUp" style="animation-delay: 0.5s;">
-            <div class="card-header bg-transparent border-0 py-3">
-                <h5 class="mb-0">Quick Actions</h5>
-            </div>
-            <div class="card-body">
-                <div class="list-group list-group-flush">
-                    <a href="/models" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                        View Model Details
-                        <i class="fas fa-chevron-right text-muted"></i>
-                    </a>
-                    <a href="/segments" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                        Explore Segments
-                        <i class="fas fa-chevron-right text-muted"></i>
-                    </a>
-                    <a href="/recommendations" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                        See Strategies
-                        <i class="fas fa-chevron-right text-muted"></i>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                        Download Report
-                        <i class="fas fa-download text-muted"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<section class="grid two">
+  <div class="card">
+    <div class="card-head"><h2>Monthly revenue</h2><p>December 2011 covers only nine days</p></div>
+    <div class="chart"><canvas id="monthly" role="img" aria-label="Monthly revenue"></canvas></div>
+  </div>
+  <div class="card">
+    <div class="card-head"><h2>From raw rows to analysis</h2></div>
+    <div class="table-wrap"><table class="metric-table"><tbody>
+      <tr><td>Raw rows</td><td class="num">{{ "{:,}".format(c.raw_rows) }}</td></tr>
+      <tr><td>After removing exact duplicates</td><td class="num">{{ "{:,}".format(c.after_duplicates) }}</td></tr>
+      <tr><td>With a customer ID</td><td class="num">{{ "{:,}".format(c.with_customer_id) }}</td></tr>
+      <tr><td>Purchases only (no cancellations, fees or postage; price &gt; 0)</td><td class="num">{{ "{:,}".format(c.purchase_rows) }}</td></tr>
+    </tbody></table></div>
+    <p class="note" style="margin-top:12px">About a quarter of rows have no customer ID. They can't be linked to a customer, so they are dropped.</p>
+  </div>
+</section>
+
+<section class="grid three">
+  <a class="card" href="{{ url_for('segments') }}" style="text-decoration:none;color:inherit">
+    <div class="eyebrow">Technique 1 · clustering</div>
+    <h2 style="margin-top:6px">Segments</h2>
+    <p class="note" style="margin-top:6px">K-means on log-scaled recency, frequency, spend and order value. k = {{ segments.k }} chosen by silhouette.</p>
+  </a>
+  <a class="card" href="{{ url_for('basket') }}" style="text-decoration:none;color:inherit">
+    <div class="eyebrow">Technique 2 · association rules</div>
+    <h2 style="margin-top:6px">Market basket</h2>
+    <p class="note" style="margin-top:6px">FP-Growth over {{ "{:,}".format(basket.invoices) }} multi-item orders: {{ "{:,}".format(basket.n_rules) }} rules with lift ≥ {{ basket.min_lift }}, searchable.</p>
+  </a>
+  <a class="card" href="{{ url_for('churn') }}" style="text-decoration:none;color:inherit">
+    <div class="eyebrow">Technique 3 · classification</div>
+    <h2 style="margin-top:6px">Churn baseline</h2>
+    <p class="note" style="margin-top:6px">Leak-free 90-day label. Best model by CV: {{ churn.selected }}, test ROC-AUC {{ "%.3f"|format(churn.models[churn.selected].test_roc_auc) }}.</p>
+  </a>
+</section>
 {% endblock %}
-
 {% block scripts %}
 <script>
-    // Specific logic for Overview page can go here or in main script checking URL
-    // For now, main script handles data fetching, we just need to make sure IDs match
+const M = {{ overview.monthly|tojson }};
+let chart;
+function draw() {
+  if (!window.Chart) return;
+  chartDefaults();
+  if (chart) chart.destroy();
+  chart = new Chart(document.getElementById('monthly'), {
+    type: 'bar',
+    data: {labels: M.map(m => m.month), datasets: [{label: 'Revenue', data: M.map(m => m.revenue), backgroundColor: cssVar('--primary'), borderRadius: 2}]},
+    options: {maintainAspectRatio: false, animation: false, plugins: {legend: {display: false}, tooltip: {callbacks: {label: t => GBP.format(t.parsed.y)}}},
+      scales: {y: {ticks: {callback: v => '£' + (v / 1000) + 'k'}}, x: {ticks: {maxRotation: 0, autoSkip: true}}}}
+  });
+}
+window.addEventListener('load', draw);
+document.addEventListener('themechange', draw);
 </script>
 {% endblock %}

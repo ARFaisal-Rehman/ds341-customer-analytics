@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block title %}Churn baseline{% endblock %}
+{% block content %}
+<section class="page-head">
+  <div>
+    <div class="eyebrow">Technique 3 · classification</div>
+    <h1>Churn baseline</h1>
+    <p>{{ "{:,}".format(churn.n) }} customers. Features use only orders before {{ churn.cutoff }}; a customer churned if they bought nothing in the 90 days after it ({{ "{:.0%}".format(churn.churn_rate) }} did). Model chosen by 5-fold CV on the 80% training split; the 20% test split is scored once.</p>
+  </div>
+</section>
+
+<section class="card">
+  <div class="card-head"><h2>Model comparison</h2><p>Features: {{ churn.features|join(', ') }} (log-scaled)</p></div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Model</th><th class="num">CV ROC-AUC</th><th class="num">Test ROC-AUC</th><th class="num">Precision</th><th class="num">Recall</th><th class="num">F1</th></tr></thead>
+    <tbody>
+    {% for name, m in churn.models.items() %}
+      <tr><td>{{ name }}{% if name == churn.selected %} <span class="chip">selected</span>{% endif %}</td>
+      <td class="num">{{ "%.3f"|format(m.cv_roc_auc) }} ± {{ "%.3f"|format(m.cv_std) }}</td><td class="num">{{ "%.3f"|format(m.test_roc_auc) }}</td>
+      <td class="num">{{ "%.3f"|format(m.precision) }}</td><td class="num">{{ "%.3f"|format(m.recall) }}</td><td class="num">{{ "%.3f"|format(m.f1) }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  <p class="note" style="margin-top:12px">Precision, recall and F1 use a 0.5 threshold.</p>
+</section>
+
+<section class="grid two">
+  <div class="card prose">
+    <h2>Why the first version scored 1.0</h2>
+    <p>The original label was "Recency over 90 days", and Recency was also an input, so every model read the answer off one feature. Now the label comes from a later period than the features, and the scores (about 0.71 to 0.75) reflect real predictive difficulty.</p>
+  </div>
+  <div class="card prose">
+    <h2>A baseline, not the final word</h2>
+    <p>One cut-off date and a random split can't show whether the model works on a later period. My <a href="https://github.com/ARFaisal-Rehman/Churn-Predictor">Risk Radar</a> project takes the same problem further: two years of data, rolling snapshots, out-of-time testing and calibrated probabilities.</p>
+  </div>
+</section>
+{% endblock %}

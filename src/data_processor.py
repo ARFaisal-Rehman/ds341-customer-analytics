@@ -1,104 +1,65 @@
+"""Load and clean UCI Online Retail, and build the leak-free churn table."""
+from __future__ import annotations
+
 import pandas as pd
-import numpy as np
-import os
 
-def load_data(filepath):
-    """Load data from CSV, handling encoding issues if any."""
-    try:
-        df = pd.read_csv(filepath, encoding='ISO-8859-1')
-    except UnicodeDecodeError:
-        df = pd.read_csv(filepath)
-    return df
+# Stock codes that are fees, postage or manual adjustments rather than products.
+NON_PRODUCT_CODES = {"POST", "D", "M", "DOT", "CRUK", "C2", "BANK CHARGES", "AMAZONFEE", "ADJUST", "B", "S", "PADS"}
 
-def clean_data(df):
-    """Clean the dataset."""
-    # Remove rows with missing CustomerID
-    df = df.dropna(subset=['CustomerID'])
-    
-    # Remove cancelled transactions (Quantity < 0)
-    df = df[df['Quantity'] > 0]
-    
-    # Remove rows with invalid UnitPrice
-    df = df[df['UnitPrice'] > 0]
-    
-    # Convert InvoiceDate to datetime
-    df['InvoiceDate'] = pd.to_datetime(df['InvoiceDate'])
-    
-    # Calculate TotalPrice
-    df['TotalPrice'] = df['Quantity'] * df['UnitPrice']
-    
-    return df
 
-def feature_engineering(df, reference_date=None):
-    """RFM + extra features, computed only from transactions before reference_date."""
-    if reference_date is None:
-        reference_date = df['InvoiceDate'].max() + pd.Timedelta(days=1)
-    df = df[df['InvoiceDate'] < reference_date]
+def load_data(filepath) -> pd.DataFrame:
+    """Read the CSV export of the UCI workbook (Latin-1 encoded)."""
+    return pd.read_csv(filepath, encoding="ISO-8859-1", dtype={"CustomerID": str, "InvoiceNo": str, "StockCode": str})
 
-    rfm = df.groupby('CustomerID').agg(
-        Recency=('InvoiceDate', lambda x: (reference_date - x.max()).days),
-        Frequency=('InvoiceNo', 'nunique'),
-        Monetary=('TotalPrice', 'sum'),
-        Tenure=('InvoiceDate', lambda x: (reference_date - x.min()).days),
-        Country=('Country', 'first'),
+
+def clean_data(df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
+    """Purchases only: drop duplicates, rows without a customer, cancellations, fees and non-positive prices."""
+    steps = {"raw_rows": len(df)}
+    df = df.drop_duplicates()
+    steps["after_duplicates"] = len(df)
+    df = df.dropna(subset=["CustomerID"]).copy()
+    df["CustomerID"] = pd.to_numeric(df["CustomerID"]).astype("int64").astype(str)
+    steps["with_customer_id"] = len(df)
+    df["StockCode"] = df["StockCode"].astype(str).str.strip().str.upper()
+    df["Description"] = df["Description"].fillna("").str.strip()
+    is_cancel = df["InvoiceNo"].astype(str).str.startswith("C") | (df["Quantity"] <= 0)
+    df = df[~is_cancel & (df["UnitPrice"] > 0) & ~df["StockCode"].isin(NON_PRODUCT_CODES)].copy()
+    steps["purchase_rows"] = len(df)
+    df["InvoiceDate"] = pd.to_datetime(df["InvoiceDate"])
+    df["TotalPrice"] = df["Quantity"] * df["UnitPrice"]
+    steps["customers"] = int(df["CustomerID"].nunique())
+    steps["invoices"] = int(df["InvoiceNo"].nunique())
+    steps["products"] = int(df["StockCode"].nunique())
+    return df, steps
+
+
+def rfm(df: pd.DataFrame, reference_date: pd.Timestamp) -> pd.DataFrame:
+    """RFM and extra features from transactions strictly before `reference_date`."""
+    df = df[df["InvoiceDate"] < reference_date]
+    out = df.groupby("CustomerID").agg(
+        LastPurchase=("InvoiceDate", "max"),
+        FirstPurchase=("InvoiceDate", "min"),
+        Frequency=("InvoiceNo", "nunique"),
+        Monetary=("TotalPrice", "sum"),
+        UniqueProducts=("StockCode", "nunique"),
+        Country=("Country", "first"),
     ).reset_index()
+    out["Recency"] = (reference_date - out["LastPurchase"]).dt.days
+    out["Tenure"] = (reference_date - out["FirstPurchase"]).dt.days
+    out["AvgOrderValue"] = out["Monetary"] / out["Frequency"]
+    return out.drop(columns=["LastPurchase", "FirstPurchase"])
 
-    rfm['AvgOrderValue'] = rfm['Monetary'] / rfm['Frequency']
-    diversity = df.groupby('CustomerID')['StockCode'].nunique().rename('UniqueProducts').reset_index()
-    return pd.merge(rfm, diversity, on='CustomerID')
 
+def label_churn(df: pd.DataFrame, horizon_days: int = 90) -> pd.DataFrame:
+    """Leak-free churn table.
 
-def label_churn(df, horizon_days=90):
-    """Build a leak-free churn dataset.
-
-    The previous version labelled churn as Recency > 90 and then used Recency
-    as a feature, so every model scored ~100% by reading the label off an input.
-
-    Now: pick a cutoff `horizon_days` before the end of the data. Features use
-    only transactions before the cutoff; a customer is labelled churned (1) if
-    they make no purchase in the `horizon_days` window after it.
+    Cutoff = `horizon_days` before the end of the data. Features use only transactions before the cutoff;
+    Churn = 1 if the customer makes no purchase in the `horizon_days` after it. (The first version of this
+    project labelled churn as Recency > 90 and also used Recency as a feature, so every model scored 1.0.)
     """
-    cutoff = df['InvoiceDate'].max() + pd.Timedelta(days=1) - pd.Timedelta(days=horizon_days)
-    features = feature_engineering(df, reference_date=cutoff)
-    future_buyers = set(df.loc[df['InvoiceDate'] >= cutoff, 'CustomerID'])
-    features['Churn'] = (~features['CustomerID'].isin(future_buyers)).astype(int)
-    return features
-
-
-def preprocess_pipeline(filepath):
-    """Full pipeline."""
-    print("Loading data...")
-    df = load_data(filepath)
-    
-    print("Cleaning data...")
-    df = clean_data(df)
-    
-    print("Building leak-free churn dataset...")
-    return label_churn(df)
-
-if __name__ == "__main__":
-    # Path to data
-    data_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data.csv')
-    
-    if os.path.exists(data_path):
-        print("Loading data...")
-        raw_df = load_data(data_path)
-        
-        print("Cleaning data...")
-        clean_df = clean_data(raw_df)
-        
-        # Save cleaned transaction data for Association Rules
-        clean_output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'cleaned_transactions.csv')
-        clean_df.to_csv(clean_output_path, index=False)
-        print(f"Cleaned transactions saved to {clean_output_path}")
-
-        print("Building leak-free churn dataset (features before cutoff, label after)...")
-        rfm = label_churn(clean_df)
-
-        output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'processed_data.csv')
-        rfm.to_csv(output_path, index=False)
-        print(f"Processed RFM data saved to {output_path}")
-        print(rfm.head())
-        print(rfm['Churn'].value_counts(normalize=True))
-    else:
-        print(f"Data file not found at {data_path}")
+    cutoff = df["InvoiceDate"].max().normalize() + pd.Timedelta(days=1) - pd.Timedelta(days=horizon_days)
+    table = rfm(df, cutoff)
+    future = set(df.loc[df["InvoiceDate"] >= cutoff, "CustomerID"])
+    table["Churn"] = (~table["CustomerID"].isin(future)).astype(int)
+    table.attrs["cutoff"] = cutoff
+    return table
