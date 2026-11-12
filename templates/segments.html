@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block title %}Customer Segments - Customer Churn Analytics{% endblock %}
+
+{% block content %}
+<h2 class="mb-4 animate__animated animate__fadeInLeft">Customer Segmentation</h2>
+
+<div class="row g-4">
+    <div class="col-lg-6">
+        <div class="card p-3 shadow-sm border-0 animate__animated animate__fadeInUp">
+            <div class="card-header bg-transparent border-0">
+                <h5>Cluster Visualization (PCA)</h5>
+                <p class="text-muted small">2D projection of customer clusters based on RFM features.</p>
+            </div>
+            <div class="card-body text-center">
+                <img src="/results/clusters_pca.png" class="img-fluid rounded shadow-sm" alt="Clusters">
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="card p-3 shadow-sm border-0 animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+            <div class="card-header bg-transparent border-0">
+                <h5>Cluster Characteristics</h5>
+                <p class="text-muted small">Average RFM values for each identified segment.</p>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-hover align-middle" id="cluster-table">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Cluster ID</th>
+                            <th>Recency (Days)</th>
+                            <th>Frequency (Count)</th>
+                            <th>Monetary ($)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Populated by JS -->
+                        <tr>
+                            <td colspan="4" class="text-center text-muted py-4">
+                                <div class="spinner-border spinner-border-sm text-primary" role="status"></div> Loading segments...
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,6 @@
+data.csv
+src/cleaned_transactions.csv
+src/processed_data.csv
+__pycache__/
+*.pyc
+venv/

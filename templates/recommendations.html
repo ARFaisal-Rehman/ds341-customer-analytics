@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block title %}Strategies - Customer Churn Analytics{% endblock %}
+
+{% block content %}
+<h2 class="mb-4 animate__animated animate__fadeInLeft">Business Recommendations</h2>
+
+<div class="row g-4">
+    <div class="col-md-7">
+        <div class="card p-4 shadow-sm border-0 mb-4 animate__animated animate__fadeInUp">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="mb-0">Product Association Rules</h5>
+                <span class="badge bg-info text-dark">Cross-Selling Opportunities</span>
+            </div>
+            <p class="text-muted small">Top discovered rules indicating that if a customer buys product A, they are likely to buy product B.</p>
+            
+            <div class="table-responsive">
+                <table class="table table-hover" id="rules-table">
+                    <thead class="table-light">
+                        <tr>
+                            <th>If Customer Buys...</th>
+                            <th>They Also Buy...</th>
+                            <th>Confidence</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Populated by JS -->
+                        <tr>
+                            <td colspan="3" class="text-center text-muted py-4">
+                                <div class="spinner-border spinner-border-sm text-primary" role="status"></div> Loading rules...
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-5">
+        <div class="card p-4 shadow-sm border-0 animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+            <h5 class="mb-3">Strategic Action Plan</h5>
+            <div class="list-group list-group-flush">
+                <div class="list-group-item p-3 border-0 bg-light mb-2 rounded">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h6 class="mb-1 text-danger fw-bold">1. At-Risk Intervention</h6>
+                    </div>
+                    <p class="mb-1 small">Target <strong>Cluster 0</strong> (High Recency) with reactivation campaigns.</p>
+                    <small class="text-muted"><i class="fas fa-envelope"></i> Send "We Miss You" coupons.</small>
+                </div>
+                
+                <div class="list-group-item p-3 border-0 bg-light mb-2 rounded">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h6 class="mb-1 text-success fw-bold">2. Loyalty Retention</h6>
+                    </div>
+                    <p class="mb-1 small">Reward <strong>Cluster 1</strong> (High Frequency) to maintain engagement.</p>
+                    <small class="text-muted"><i class="fas fa-star"></i> Offer early access to sales.</small>
+                </div>
+                
+                <div class="list-group-item p-3 border-0 bg-light mb-2 rounded">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h6 class="mb-1 text-primary fw-bold">3. Basket Value Growth</h6>
+                    </div>
+                    <p class="mb-1 small">Implement product bundling based on Association Rules.</p>
+                    <small class="text-muted"><i class="fas fa-tags"></i> Suggest "Freq Bought Together" items.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
